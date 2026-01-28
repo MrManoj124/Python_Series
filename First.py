@@ -22,3 +22,11 @@ print('Dharsh said ,"This is my phone"')
 
 print("This is a backslash..\\")
 #This is a backslash..\
+
+
+#Data Types
+x = 10        # int
+y = 3.5       # float
+z = "Hello"   # string
+is_ml_fun = True  # boolean
+ 
