@@ -30,3 +30,12 @@ y = 3.5       # float
 z = "Hello"   # string
 is_ml_fun = True  # boolean
  
+
+#mini practice
+name = "Your Name"
+age = 22
+height = 5.8
+
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
