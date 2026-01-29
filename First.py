@@ -44,3 +44,11 @@
 #Take input from user and operators
 name = input("Enter Your name :")
 print("Your name is  : ", name)
+
+
+#take user age and age type
+age = input("Enter your age : ")
+print("Your age is : ", age)
+print(type(age))
+
+
