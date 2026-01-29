@@ -89,3 +89,10 @@ yourage = int(input("Enter your age: "))
 if yourage >= 18:
     print("You are eligible for the election")
 
+#Basic if-else condition 
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("Adult")
+else:
+    print("Not Adult")
