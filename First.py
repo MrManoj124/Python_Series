@@ -96,3 +96,14 @@ if age >= 18:
     print("Adult")
 else:
     print("Not Adult")
+
+
+#check if-else-if condition 
+marks = int(input("Enter marks: "))
+
+if marks >= 75:
+    print("Distinction")
+elif marks >= 50:
+    print("Pass")
+else:
+    print("Fail")
