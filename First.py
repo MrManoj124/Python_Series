@@ -80,3 +80,12 @@ y = 20
 print(x > y)   # False
 print(x < y)   # True
 print(x == y)  # False
+
+
+#simple logic using if
+#Basic if
+yourage = int(input("Enter your age: "))
+
+if yourage >= 18:
+    print("You are eligible for the election")
+
