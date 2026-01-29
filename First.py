@@ -56,3 +56,6 @@ print(type(age))
 ages = int(input("Enter your age : "))
 print(age + 5)
 
+#convert to float
+height = float(input("Enter your height: "))
+print(height)
