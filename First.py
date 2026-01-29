@@ -71,3 +71,12 @@ print(a * b)   # 30
 print(a / b)   # 3.333
 print(a % b)   # 1
 print(a ** b)  # 1000
+
+
+#comparison operators 
+x = 10
+y = 20
+
+print(x > y)   # False
+print(x < y)   # True
+print(x == y)  # False
