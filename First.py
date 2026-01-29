@@ -107,3 +107,12 @@ elif marks >= 50:
     print("Pass")
 else:
     print("Fail")
+
+
+#if-else example01
+hours = float(input("Study hours per day: "))
+
+if hours >= 5:
+    print("High chance of success")
+else:
+    print("Need more practice")
