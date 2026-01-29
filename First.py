@@ -52,3 +52,7 @@ print("Your age is : ", age)
 print(type(age))
 
 
+#convert to integer
+ages = int(input("Enter your age : "))
+print(age + 5)
+
