@@ -146,6 +146,8 @@ else:
     print("You are a minor.")
 
 #Enter 2 number from user and print the sum, difference, product and quotient
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
 
 
 
