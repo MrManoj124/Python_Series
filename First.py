@@ -116,3 +116,15 @@ if hours >= 5:
     print("High chance of success")
 else:
     print("Need more practice")
+
+
+
+#if-else example02
+# temperature = float(input("Enter the temperature in Celsius: "))    
+# if temperature > 30:
+#     print("It's a hot day.")
+# elif temperature > 20:
+#     print("It's a pleasant day.")
+# else:
+#     print("It's a cold day.")
+    
