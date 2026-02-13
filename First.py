@@ -120,7 +120,7 @@ else:
 
 
 #if-else example02
-# temperature = float(input("Enter the temperature in Celsius: "))    
+temperature = float(input("Enter the temperature in Celsius: "))    
 # if temperature > 30:
 #     print("It's a hot day.")
 # elif temperature > 20:
