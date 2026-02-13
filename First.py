@@ -155,4 +155,4 @@ print("Quotient:", num1 / num2)
 
 
 #Check whether a number entered by user is even or odd
-    
+number = int(input("Enter a number: "))
