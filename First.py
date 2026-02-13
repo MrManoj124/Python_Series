@@ -128,3 +128,9 @@ elif temperature > 20:
 else:
     print("It's a cold day.")
     
+
+## #logical operators
+# a = 10
+# b = 20
+# print(a > 5 and b < 30)  # True
+# print(a > 15 or b < 25)  # True 
