@@ -137,11 +137,12 @@ print(a > 15 or b < 25)  # True
 
 
 #logical operators example
-# age = int(input("Enter your age: "))
-# if age >= 18 and age < 60:
-#     print("You are an adult.")
-# elif age >= 60:
-#     print("You are a senior citizen.")
-# else:
-#     print("You are a minor.")
+age = int(input("Enter your age: "))
+if age >= 18 and age < 60:
+    print("You are an adult.")
+elif age >= 60:
+    print("You are a senior citizen.")
+else:
+    print("You are a minor.")
 
+    
