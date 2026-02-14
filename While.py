@@ -62,6 +62,7 @@ while i <= 3:
 
 #While with user input
 while True:
+    user_input = input("Enter 'exit' to quit: ")
     
         
     
