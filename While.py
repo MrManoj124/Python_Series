@@ -12,3 +12,13 @@ while count <= 5:
 
 # while False:
 #     print("This will never run")
+
+
+#While with else
+counts = 1
+while counts <= 5:
+    print(counts)
+    counts += 1
+else:
+    print("Loop is finished")
+    
