@@ -149,6 +149,7 @@ while index < len(numbers):
     index += 1
 
 #while loop with dictionaries
+person = {"name": "Alice", "age": 30, "city": "New York"}
 
 
 
