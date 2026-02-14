@@ -73,6 +73,11 @@ while True:
 #While with else and break   
 # This will not execute the else block because of the break statement
 counter = 1
+while counter <= 5:
+    print(counter)
+    if counter == 3:
+        break
+    counter += 1
 
 
     
