@@ -143,6 +143,10 @@ count_up_to(5)
 
 #while loop with lists
 numbers = [1, 2, 3, 4, 5]
+index = 0
+
+
+
 
 
 
