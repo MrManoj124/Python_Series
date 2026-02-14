@@ -41,5 +41,7 @@ while num < 10:
         continue
     print(num)
 
-    
+
+#While with pass
+
     
