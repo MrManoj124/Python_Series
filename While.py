@@ -134,7 +134,11 @@ while True:
 
 #while loop with functions
 def count_up_to(n):
-
+    count = 1
+    while count <= n:
+        print(count)
+        count += 1
+count_up_to(5)
 
 
 
