@@ -102,8 +102,17 @@ while counters <= 5:
     counters += 1
 else:
     print("Loop is finished")
-    
-    
 
+# This will skip the number 3 and continue with the loop,
+# but the else block will still execute after the loop finishes
+counters = 1
+while counters <= 5:
+    if counters == 3:
+        counters += 1
+        continue
+    print(counters)
+    counters += 1
+else:
+    print("Loop is finished")
 
     
