@@ -121,15 +121,8 @@ while True:
 
 
 #While with nested loops and break
-i = 1
-while i <= 3:
-    j = 1
-    while j <= 2:
-        print(f"i: {i}, j: {j}")
-        if i == 2 and j == 1:
-            break
-        j += 1
-    i += 1
+m = 1
+while m <= 3:
     
 
     
