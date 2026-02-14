@@ -21,4 +21,6 @@ while counts <= 5:
     counts += 1
 else:
     print("Loop is finished")
-    
+
+
+#While with break
