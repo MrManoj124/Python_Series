@@ -50,5 +50,5 @@ while n < 5:
         pass
      print(n)
 
-
+#While with nested loop
     
