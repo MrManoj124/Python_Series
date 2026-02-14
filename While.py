@@ -152,7 +152,6 @@ while index < len(numbers):
 person = {"name": "Alice", "age": 30, "city": "New York"}
 keys = list(person.keys())
 index = 0  
- 
 while index < len(keys):
     key = keys[index]
     value = person[key]
