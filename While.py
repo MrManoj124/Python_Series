@@ -132,6 +132,9 @@ while m <= 3:
     m += 1
 
 
+#while loop with functions
+
+
     
 
     
