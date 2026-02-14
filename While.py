@@ -90,6 +90,9 @@ while counter <= 5:
 else:
     print("Loop is finished")
 
+#While with continue and else
+# This will skip the number 3 and continue with the loop, but the else block will
+
 
     
 
