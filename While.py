@@ -43,5 +43,12 @@ while num < 10:
 
 
 #While with pass
+n = 0
+while n < 5:
+     n += 1
+     if n == 4 :
+        pass
+     print(n)
+
 
     
