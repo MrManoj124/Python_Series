@@ -24,3 +24,6 @@ else:
 
 
 #While with break
+counter = 1
+
+
