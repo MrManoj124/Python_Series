@@ -124,5 +124,15 @@ while True:
 m = 1
 while m <= 3:
     
+    t = 1
+    while t <= 2:
+        print(f"m: {m}, t: {t}")
+        if m == 2 and t == 1:
+            break
+        t += 1
+    m += 1
+
+
+    
 
     
