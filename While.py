@@ -115,4 +115,6 @@ while counters <= 5:
 else:
     print("Loop is finished")
 
+#While with infinite loop
+
     
