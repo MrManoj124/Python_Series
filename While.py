@@ -51,4 +51,9 @@ while n < 5:
      print(n)
 
 #While with nested loop
+i = 1
+while i <= 3:
+    
+
+
     
