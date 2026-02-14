@@ -116,5 +116,9 @@ else:
     print("Loop is finished")
 
 #While with infinite loop
+while True:
+    print("This is an infinite loop. Press Ctrl+C to stop.")    
+
+
 
     
