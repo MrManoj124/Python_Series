@@ -32,4 +32,6 @@ while counter <= 5:
     counter += 1
 else:
     print("Loop is finished")
+
+#While with continue
     
