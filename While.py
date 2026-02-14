@@ -63,8 +63,13 @@ while i <= 3:
 #While with user input
 while True:
     user_input = input("Enter 'exit' to quit: ")
-    
+    if user_input.lower() == 'exit':
+        print("Exiting the loop.")
+        break
+    else:
+        print(f"You entered: {user_input}")
         
+           
     
 
 
