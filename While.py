@@ -70,7 +70,11 @@ while True:
         print(f"You entered: {user_input}")
 
 
-#While with else and break     
+#While with else and break   
+# This will not execute the else block because of the break statement
+counter = 1
+
+
     
 
 
