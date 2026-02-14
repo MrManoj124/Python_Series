@@ -78,6 +78,10 @@ while counter <= 5:
     if counter == 3:
         break
     counter += 1
+else:
+    print("Loop is finished")
+
+    
 
 
     
