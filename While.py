@@ -81,7 +81,14 @@ while counter <= 5:
 else:
     print("Loop is finished")
 
-    
+
+# This will execute the else block because there is no break statement
+counter = 1
+while counter <= 5:
+    print(counter)
+    counter += 1    
+else:
+    print("Loop is finished")
 
 
     
