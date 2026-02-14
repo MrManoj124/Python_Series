@@ -121,18 +121,21 @@ while True:
 
 
 #While with nested loops and break
-m = 1
-while m <= 3:
-    t = 1
-    while t <= 2:
-        print(f"m: {m}, t: {t}")
-        if m == 2 and t == 1:
-            break
-        t += 1
-    m += 1
+# m = 1
+# while m <= 3:
+#     t = 1
+#     while t <= 2:
+#         print(f"m: {m}, t: {t}")
+#         if m == 2 and t == 1:
+#             break
+#         t += 1
+#     m += 1
 
 
 #while loop with functions
+def count_up_to(n):
+
+
 
 
     
