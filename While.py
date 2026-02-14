@@ -150,6 +150,14 @@ while index < len(numbers):
 
 #while loop with dictionaries
 person = {"name": "Alice", "age": 30, "city": "New York"}
+keys = list(person.keys())
+index = 0  
+ 
+while index < len(keys):
+    key = keys[index]
+    value = person[key]
+    print(f"{key}: {value}")
+    index += 1
 
 
 
