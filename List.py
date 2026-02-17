@@ -13,4 +13,6 @@ list[2]=14
 print(list)
 
 #Adding elements to a list.
+list.append(6)
+print(list)
 
