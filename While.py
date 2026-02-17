@@ -163,7 +163,9 @@ while index < len(keys):
 while true:
     user_input = input("Enter a number : ")
     if user_input.isdigit():
-        
+        print(F"You entered the number : {user_input}")
+    else:
+        print("Invalid input. Please enter a number.")
 
 
 
