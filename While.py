@@ -160,7 +160,10 @@ while index < len(keys):
 
 
 #while loop with user input and validation
-
+while true:
+    user_input = input("Enter a number : ")
+    if user_input.isdigit():
+        
 
 
 
