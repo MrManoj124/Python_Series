@@ -6,3 +6,8 @@ print(list)
 
 #Accessing elements in a list.
 print(list[0])
+print(list[2])
+
+#Modifying elements in a list.
+list[2]=14
+print(list)
