@@ -25,3 +25,9 @@ print(list)
 list.Slice(1,3)
 print(list)
 
+
+#Iterating through a list
+for i in list:
+    print(i)
+
+    
