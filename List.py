@@ -49,4 +49,8 @@ print(list)
 list.pop()
 print(list)
 
-list.
+list.clear()
+print(list)
+
+list.reverse()
+print(list)
