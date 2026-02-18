@@ -30,4 +30,9 @@ print(list)
 for i in list:
     print(i)
 
+#List comprehension
+squared = [x**2 for x in list]
+print(squared)
+
+
     
