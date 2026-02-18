@@ -16,3 +16,6 @@ print(list)
 list.append(6)
 print(list)
 
+
+#Removing elements from a list.
+
