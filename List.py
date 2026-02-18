@@ -18,12 +18,12 @@ print(list)
 
 
 #Removing elements from a list.
-list.Remove(4)
+list.remove(2)
 print(list)
 
 #Slicing a list
-list.Slice(1,3)
-print(list)
+list_slice = list[1:3]
+print(list_slice)
 
 
 #Iterating through a list
