@@ -18,4 +18,6 @@ print(list)
 
 
 #Removing elements from a list.
+list.Remove(4)
+print(list)
 
