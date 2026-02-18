@@ -40,4 +40,6 @@ list.append(6)
 list.extend([7,8,9])
 print(list)
 
+list.insert(2,10)
+print(list)
     
