@@ -54,3 +54,8 @@ print(list)
 
 list.reverse()
 print(list)
+
+list.sort()
+print(list)
+
+
