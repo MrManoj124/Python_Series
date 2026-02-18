@@ -21,3 +21,5 @@ print(list)
 list.Remove(4)
 print(list)
 
+#Slicing a list
+
