@@ -42,4 +42,11 @@ print(list)
 
 list.insert(2,10)
 print(list)
-    
+
+list.remove(4)
+print(list)
+
+list.pop()
+print(list)
+
+list.
