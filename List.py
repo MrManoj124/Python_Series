@@ -35,4 +35,9 @@ squared = [x**2 for x in list]
 print(squared)
 
 
+#list methods
+list.append(6)
+list.extend([7,8,9])
+print(list)
+
     
