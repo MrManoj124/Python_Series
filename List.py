@@ -97,3 +97,4 @@ Mixed = [1, "Hey", 3.14, True]
 print(Mixed[2])
 
 #type() function to check the data type of a list
+print(type(list))
