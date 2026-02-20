@@ -123,3 +123,6 @@ print(Combined[5:])
 #Range of Negative indexes
 print(Fruits[-3 : -1]) 
 print(Combined[-5 : -2]) 
+
+#Check if the item exixts in the list
+print("Mango" in Fruits) #Check if "Mango" is in the list Fruits
