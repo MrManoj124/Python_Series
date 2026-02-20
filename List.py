@@ -117,3 +117,5 @@ print(list[-1]) #print the last item in the list list
 
 print(Fruits[1 : 3]) #print the 2nd and 3rd items in the list Fruits
 print(Combined[2 : 5]) #print the 3rd to 5th items in the list Combined
+print(Fruits[:3]) #print the first 3 items in the list Fruits
+
