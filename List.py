@@ -65,3 +65,8 @@ print(EvenNumbers)
 #List Length
 Fruits = ["Mango", "Banana", "Apple", "WoodApple", "Pineapple"]
 print(len(Fruits))
+
+
+#List concatenation
+Mano = [1,2,3,4]
+Rooban = [5,6,7,8,9]
