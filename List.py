@@ -122,3 +122,4 @@ print(Combined[5:])
 
 #Range of Negative indexes
 print(Fruits[-3 : -1]) 
+print(Combined[-5 : -2]) 
