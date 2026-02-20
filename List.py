@@ -112,3 +112,5 @@ print(List_from_String)
 
 #Accessing list Items
 print(Mano[2]) #print the 3rd item in the list Mano
+print(Rooban[4]) #print the 5th item in the list Rooban
+print(list[-1]) #print the last item in the list list
