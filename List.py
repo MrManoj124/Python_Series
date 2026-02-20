@@ -59,4 +59,6 @@ list.sort()
 print(list)
 
 #List with if condition
+EvenNumbers = [x for x in range(1, 11) if x % 2 == 0]
+print(EvenNumbers) 
 
