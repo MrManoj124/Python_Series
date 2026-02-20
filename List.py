@@ -105,3 +105,7 @@ print(Matrix[0][1])
 
 
 #list() constructor to create a list from an iterable
+String = "Hello"
+List_from_String = list(String)
+print(List_from_String)
+
