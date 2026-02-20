@@ -88,3 +88,5 @@ Price = [78000, 78500, 75000, 80000]
 Graphics_Card = [True, False, True, False]
 print(Laptop, Price, Graphics_Card)
 print("Laptop : ", Laptop[1])
+print("Price : " , Price[3])
+print("Graphics Card : ", Graphics_Card[2])
