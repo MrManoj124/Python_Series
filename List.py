@@ -121,3 +121,4 @@ print(Fruits[:3]) #print the first 3 items in the list Fruits
 print(Combined[5:]) 
 
 #Range of Negative indexes
+print(Fruits[-3 : -1]) 
