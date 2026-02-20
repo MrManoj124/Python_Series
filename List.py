@@ -102,3 +102,6 @@ print(type(list))
 #List of lists
 Matrix = [[3,6,8],[29,13,14],[45,65,12]]
 print(Matrix[0][1])
+
+
+#list() constructor to create a list from an iterable
