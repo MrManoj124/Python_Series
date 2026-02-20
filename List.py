@@ -98,3 +98,6 @@ print(Mixed[2])
 
 #type() function to check the data type of a list
 print(type(list))
+
+#List of lists
+Matrix = [[3,6,8],[29,13,14],[45,65,12]]
