@@ -70,3 +70,5 @@ print(len(Fruits))
 #List concatenation
 Mano = [1,2,3,4]
 Rooban = [5,6,7,8,9]
+Combined = Mano + Rooban
+print(Combined)
