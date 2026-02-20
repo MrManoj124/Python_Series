@@ -77,3 +77,7 @@ print(Combined)
 #list Repitation
 Repeated = [1,2,3] * 3
 print(Repeated)
+
+#List Membership
+Uni = ["Tech", "Applied", "Business"]
+print("Applied" in Uni)
