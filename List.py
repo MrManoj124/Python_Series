@@ -81,3 +81,5 @@ print(Repeated)
 #List Membership
 Uni = ["Tech", "Applied", "Business"]
 print("Applied" in Uni)
+
+#List Items With Different Data Types
