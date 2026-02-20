@@ -94,3 +94,4 @@ print("Graphics Card : ", Graphics_Card[2])
 
 #List of Mixed Data Types
 Mixed = [1, "Hey", 3.14, True]
+print(Mixed[2])
