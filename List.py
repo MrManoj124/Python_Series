@@ -125,4 +125,5 @@ print(Fruits[-3 : -1])
 print(Combined[-5 : -2]) 
 
 #Check if the item exixts in the list
-print("Mango" in Fruits) #Check if "Mango" is in the list Fruits
+print("Mango" in Fruits) 
+print(10 in Combined)
