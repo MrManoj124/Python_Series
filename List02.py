@@ -6,3 +6,7 @@ print(Cars)
 Cars[3] = "Suzuki"
 print(Cars)
 
+#change the Range of Item Values
+Cars[ 1 : 4] = ["Hyndai", "Land Rover" , "Nissan"]
+print(Cars)
+
