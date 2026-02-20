@@ -63,3 +63,5 @@ EvenNumbers = [x for x in range(1, 11) if x % 2 == 0]
 print(EvenNumbers) 
 
 #List Length
+Fruits = ["Mango", "Banana", "Apple", "WoodApple", "Pineapple"]
+print(len(Fruits))
