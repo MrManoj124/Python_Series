@@ -72,3 +72,8 @@ Mano = [1,2,3,4]
 Rooban = [5,6,7,8,9]
 Combined = Mano + Rooban
 print(Combined)
+
+
+#list Repitation
+Repeated = [1,2,3] * 3
+print(Repeated)
