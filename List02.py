@@ -15,3 +15,8 @@ print(Cars)
 Tlist = ["Love", "care", "trust","Understaning","Sharing"]
 Tlist.append("Wishes")
 print(Tlist)
+
+#Insert Items
+Trust = ["hope", "Patients","Kindness"]
+Trust.insert(1, "wishes")
+print(Trust)
