@@ -20,3 +20,10 @@ print(Tlist)
 Trust = ["hope", "Patients","Kindness"]
 Trust.insert(1, "wishes")
 print(Trust)
+
+
+#Extend List
+Mano = ["Trust", "Love", "Educated"]
+Rooban = ["Skilled", "Learning New Things", "Loyal","Honest"]
+Mano.extend(Mano)
+print(Mano)
