@@ -10,3 +10,8 @@ print(Cars)
 Cars[ 1 : 4] = ["Hyndai", "Land Rover" , "Nissan"]
 print(Cars)
 
+
+#Add list Items
+Tlist = ["Love", "care", "trust","Understaning","Sharing"]
+Tlist.append("Wishes")
+print(Tlist)
