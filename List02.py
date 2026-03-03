@@ -61,3 +61,14 @@ while i < len(Cars):
 #Looping Using List Comprehension
 IPhone_Series = ["IPhone_4", "IPhone_4s", "IPhone_5", "IPhone_5s", "IPhone_6"]
 [print(x) for x in IPhone_Series] 
+
+
+#List Comprehension
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+
+print(newlist) 
