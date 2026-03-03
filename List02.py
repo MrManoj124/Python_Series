@@ -36,3 +36,9 @@ Faculty = ["Bio-science", "Technoloy","Physical-Science"]
 Department = ["IT","Enviriontmental-Science","Engineering"]
 Faculty.extend(Department)
 print(Faculty)
+
+
+#Loop Through a List
+Fruits = ["apple", "banana", "cherry"]
+for x in Fruits:
+  print(x)
