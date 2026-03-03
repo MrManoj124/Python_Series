@@ -56,3 +56,8 @@ i = 0
 while i < len(Cars):
   print(Cars[i])
   i = i + 1
+
+
+#Looping Using List Comprehension
+IPhone_Series = ["IPhone_4", "IPhone_4s", "IPhone_5", "IPhone_5s", "IPhone_6"]
+[print(x) for x in IPhone_Series] 
