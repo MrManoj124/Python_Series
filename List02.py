@@ -125,3 +125,9 @@ def myfunc(n):
 Num = [100, 50, 65, 82, 23]
 Num.sort(key = myfunc)
 print(Num)
+
+
+#Case Insensitive Sort
+Fruits3 = ["banana", "Orange", "Kiwi", "cherry"]
+Fruits3.sort()
+print(Fruits3)
