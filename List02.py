@@ -116,3 +116,9 @@ print(Fruits1)
 Fruits2 = [100, 50, 65, 82, 23]
 Fruits2.sort(reverse = True)
 print(Fruits2)
+
+
+#Customize Sort Function
+def myfunc(n):
+  return abs(n - 50)
+
