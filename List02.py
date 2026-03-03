@@ -110,3 +110,9 @@ print(thislist)
 Fruits1 = ["orange", "mango", "kiwi", "pineapple", "banana"]
 Fruits1.sort(reverse = True)
 print(Fruits1)
+
+
+#Example for Sort Descending
+Fruits2 = [100, 50, 65, 82, 23]
+Fruits2.sort(reverse = True)
+print(Fruits2)
