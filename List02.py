@@ -84,3 +84,9 @@ print(newlt)
 
 #The Syntax
 #newlist = [expression for item in iterable if condition == True]
+
+
+#Example for condition
+
+#Only accept items that are not "apple":
+newlist = [x for x in fruits if x != "apple"] 
