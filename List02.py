@@ -94,3 +94,7 @@ newlist = [x for x in fruits if x != "apple"]
 
 #Iterable 
 newlist1 = [x for x in range(10) if x < 5] 
+
+
+#Expression
+newlist = ['hello' for x in fruits] 
