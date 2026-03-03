@@ -122,3 +122,6 @@ print(Fruits2)
 def myfunc(n):
   return abs(n - 50)
 
+Num = [100, 50, 65, 82, 23]
+Num.sort(key = myfunc)
+print(Num)
