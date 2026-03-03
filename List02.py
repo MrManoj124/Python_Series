@@ -98,3 +98,9 @@ newlist1 = [x for x in range(10) if x < 5]
 
 #Expression
 newlist = ['hello' for x in fruits] 
+
+
+#Sort List Alphanumerically
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort()
+print(thislist)
