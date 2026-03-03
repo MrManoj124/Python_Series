@@ -137,3 +137,9 @@ print(Fruits3)
 Bike = ["Dukati", "BMW", "TVS", "Bajaj"]
 Bike.sort(key = str.lower)
 print(Bike)
+
+
+#Reverse Order
+Bike_Accesseries = ["Break", "Engine", "Handle", "Tyre", "Headlight"]
+Bike_Accesseries.reverse()
+print(Bike_Accesseries)
