@@ -48,3 +48,11 @@ for x in Fruits:
 Fruit = ["apple", "banana", "cherry"]
 for i in range(len(Fruit)):
   print(Fruit[i]) 
+
+
+#Using a While Loop
+Cars = ["BMW", "Wolkswogan", "Suzuki"]
+i = 0
+while i < len(Cars):
+  print(Cars[i])
+  i = i + 1
