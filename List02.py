@@ -80,3 +80,7 @@ Vehicle = ["Car", "Van", "Bike", "Bus", "Three-Wheeler"]
 newlt = [x for x in Vehicle if "a" in x]
 
 print(newlt) 
+
+
+#The Syntax
+#newlist = [expression for item in iterable if condition == True]
