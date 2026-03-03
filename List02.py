@@ -72,3 +72,11 @@ for x in fruits:
     newlist.append(x)
 
 print(newlist) 
+
+
+#Example for List Comprehension
+Vehicle = ["Car", "Van", "Bike", "Bus", "Three-Wheeler"]
+
+newlt = [x for x in Vehicle if "a" in x]
+
+print(newlt) 
