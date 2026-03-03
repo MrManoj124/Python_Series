@@ -104,3 +104,9 @@ newlist = ['hello' for x in fruits]
 thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
 thislist.sort()
 print(thislist)
+
+
+#Sort Descending
+Fruits1 = ["orange", "mango", "kiwi", "pineapple", "banana"]
+Fruits1.sort(reverse = True)
+print(Fruits1)
