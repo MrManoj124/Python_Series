@@ -131,3 +131,9 @@ print(Num)
 Fruits3 = ["banana", "Orange", "Kiwi", "cherry"]
 Fruits3.sort()
 print(Fruits3)
+
+
+#Example for Case Insensitive Sort
+Bike = ["Dukati", "BMW", "TVS", "Bajaj"]
+Bike.sort(key = str.lower)
+print(Bike)
