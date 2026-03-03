@@ -42,3 +42,9 @@ print(Faculty)
 Fruits = ["apple", "banana", "cherry"]
 for x in Fruits:
   print(x)
+
+
+#Loop Through the Index Numbers
+Fruit = ["apple", "banana", "cherry"]
+for i in range(len(Fruit)):
+  print(Fruit[i]) 
