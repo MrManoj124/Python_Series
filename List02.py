@@ -147,6 +147,6 @@ print(Bike_Accesseries)
 
 #Python - Copy Lists
 #Use the copy() method
-thislist = ["apple", "banana", "cherry"]
-mylist = thislist.copy()
-print(mylist)
+Musical_Instruments = ["apple", "banana", "cherry"]
+mylist3 = Musical_Instruments.copy()
+print(mylist3)
