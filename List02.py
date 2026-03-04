@@ -146,3 +146,7 @@ print(Bike_Accesseries)
 
 
 #Python - Copy Lists
+#Use the copy() method
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist.copy()
+print(mylist)
