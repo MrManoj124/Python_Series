@@ -52,3 +52,8 @@ print(thistuple)
 #<----Python - Access Tuple Items---->
 Cars = ("BMW", "Benz", "TATA")
 print(Cars[1])
+
+
+#Negative Indexing
+Buses = ("Benz", "Leyland", "Volvo")
+print(Buses[-1])
