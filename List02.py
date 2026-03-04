@@ -162,3 +162,12 @@ print(mylist2)
 PaperSize = ["A3", "A4", "A5"]
 mylist4 = PaperSize[:]
 print(mylist4)
+
+
+#<---Python - Join Lists--->
+#Join Two Lists
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+print(list3) 
