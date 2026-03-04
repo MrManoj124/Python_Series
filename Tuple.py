@@ -57,3 +57,8 @@ print(Cars[1])
 #Negative Indexing
 Buses = ("Benz", "Leyland", "Volvo")
 print(Buses[-1])
+
+
+#Range of Indexes
+Buses = ("Benz", "Leyland", "Volvo")
+print(Buses[2:5])
