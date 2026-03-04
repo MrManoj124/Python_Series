@@ -171,3 +171,12 @@ list2 = [1, 2, 3]
 
 list3 = list1 + list2
 print(list3) 
+
+#Example for Join two lists
+list = ["a", "b" , "c"]
+lists = [1, 2, 3]
+
+for x in lists:
+  list.append(x)
+
+print(list)
