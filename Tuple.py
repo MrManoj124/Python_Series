@@ -72,3 +72,9 @@ print(thistuple[:4])
 #Second Example for Range of Indexes
 thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 print(thistuple[2:])
+
+
+
+#Range of Negative Indexes
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[-4:-1])
