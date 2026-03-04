@@ -147,6 +147,12 @@ print(Bike_Accesseries)
 
 #Python - Copy Lists
 #Use the copy() method
-Musical_Instruments = ["apple", "banana", "cherry"]
+Musical_Instruments = ["violin", "flute", "keyboard"]
 mylist3 = Musical_Instruments.copy()
 print(mylist3)
+
+
+#Use the list() method
+ShoppinBag= ["5Rupees", "2Rupees", "10Rupees"]
+mylist2 = list(ShoppinBag)
+print(mylist2)
