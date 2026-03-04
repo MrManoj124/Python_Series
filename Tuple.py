@@ -47,3 +47,8 @@ print(type(mytuple))
 #The tuple Constructor
 thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
 print(thistuple)
+
+
+#<----Python - Access Tuple Items---->
+Cars = ("BMW", "Benz", "TATA")
+print(Cars[1])
