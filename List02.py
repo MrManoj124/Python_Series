@@ -156,3 +156,9 @@ print(mylist3)
 ShoppinBag= ["5Rupees", "2Rupees", "10Rupees"]
 mylist2 = list(ShoppinBag)
 print(mylist2)
+
+
+#Use the slice Operator
+PaperSize = ["A3", "A4", "A5"]
+mylist4 = PaperSize[:]
+print(mylist4)
