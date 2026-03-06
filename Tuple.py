@@ -134,3 +134,10 @@ TV=("LG","Sumsung","singer","panasonic")
 print(small)
 print(large)
 print(average)
+
+
+#<=== Loop Through a Tuple ===>
+Fav=("Car","Bike","Yard")
+for x in Fav:
+  print(x)
+  
