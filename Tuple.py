@@ -89,3 +89,8 @@ if "apple" in thistuple:
 
 #<---Updates Tuple--->
 #Change Tuple values
+pen=("Mango","Atlas","Rathna","Speed","SMS")
+y=list(pen)
+y[1]="linc"
+pen=tuple(y)
+print(pen)
