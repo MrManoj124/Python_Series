@@ -94,3 +94,10 @@ y=list(pen)
 y[1]="linc"
 pen=tuple(y)
 print(pen)
+
+
+#Add Items into tuple
+Fans=("Lotus","Kevilton","panasonic")
+u=list(Fans)
+u.append("singer")
+Fans=tuple(u)
