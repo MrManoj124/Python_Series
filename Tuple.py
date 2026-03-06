@@ -112,3 +112,9 @@ print(soda)
 
 #<---Remove Items--->
 #Tuples are unchangeable
+Battery = ("Laxapana", "Panasonic","Ultra")
+i=list(Battery)
+i.remove("Ultra")
+Battery = tuple(i)
+
+
