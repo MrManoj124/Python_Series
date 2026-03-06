@@ -165,3 +165,8 @@ marks = (85, 95, 80)
 averl = sub + marks
 print(averl)
 
+
+#Multiply Tuples
+Bus_TicketPrice = ("250R","350R","500R")
+listed = Bus_TicketPrice * 2
+print (Bus_TicketPrice)
