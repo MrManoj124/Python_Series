@@ -140,4 +140,11 @@ print(average)
 Fav=("Car","Bike","Yard")
 for x in Fav:
   print(x)
+
+
+#<=== Loop Through the Index Numbers ===>
+Fav=("Car","Bike","Yard")
+for y in range(len(Fav)):
+  print(Fav[y])
+
   
