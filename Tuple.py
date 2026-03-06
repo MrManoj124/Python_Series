@@ -108,3 +108,7 @@ soda = ("mirinda","fanta","necto","sprite")
 so=("Pepsi")
 soda += so
 print(soda)
+
+
+#<---Remove Items--->
+#Tuples are unchangeable
