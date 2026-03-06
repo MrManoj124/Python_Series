@@ -118,3 +118,10 @@ i.remove("Ultra")
 Battery = tuple(i)
 
 
+
+#<===Unpack Tuple===>
+Camera = ("Sony", "Nikon","Canon")
+(sharpness, clarity, effects)= Camera
+print(sharpness)
+print(clarity)
+print(effects)
