@@ -159,5 +159,9 @@ while i < len(Fav):
 
 #<=== Python Join Tuple === >
 #Join Two Tuples
+sub = ("Maths", "Science", "English")
+marks = (85, 95, 80)
 
+averl = sub + marks
+print(averl)
 
