@@ -125,3 +125,12 @@ Camera = ("Sony", "Nikon","Canon")
 print(sharpness)
 print(clarity)
 print(effects)
+
+
+#Using Asterisk
+TV=("LG","Sumsung","singer","panasonic")
+(small, *large, average) = TV
+
+print(small)
+print(large)
+print(average)
