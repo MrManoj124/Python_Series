@@ -101,3 +101,10 @@ Fans=("Lotus","Kevilton","panasonic")
 u=list(Fans)
 u.append("singer")
 Fans=tuple(u)
+
+
+#Add tuple to a tuple
+soda = ("mirinda","fanta","necto","sprite")
+so=("Pepsi")
+soda += so
+print(soda)
