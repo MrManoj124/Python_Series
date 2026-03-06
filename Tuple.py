@@ -147,4 +147,12 @@ Fav=("Car","Bike","Yard")
 for y in range(len(Fav)):
   print(Fav[y])
 
+
+#<=== Using a While Loop ===>
+Fav=("Car","Bike","Yard")
+i = 0
+while i < len(Fav):
+  print(Fav[i])
+  i = i + 1
   
+
