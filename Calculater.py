@@ -24,3 +24,6 @@ num2 = float(input("Enter second number : "))
 #Apply Conditional Logic
 if operator == "+":
     result = add(num1, num2)
+
+elif operator == "-":
+    result = sub(num1, num2)
