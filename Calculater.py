@@ -17,3 +17,4 @@ def mod(a,b):
 
 #Take a user input 
 num1 = float(input("Enter First Number : "))
+operator = input("Enter operator (+,-,*,/,%) : ")
