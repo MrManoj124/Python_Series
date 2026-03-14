@@ -19,3 +19,6 @@ def mod(a,b):
 num1 = float(input("Enter First Number : "))
 operator = input("Enter operator (+,-,*,/,%) : ")
 num2 = float(input("Enter second number : "))
+
+
+#Apply Conditional Logic
