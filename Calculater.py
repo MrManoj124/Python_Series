@@ -33,3 +33,6 @@ elif operator == "*":
 
 elif operator == "/":
     result = div(num1, num2)
+
+elif operator == "%":
+    result = mod(num1, num2)
