@@ -22,3 +22,5 @@ num2 = float(input("Enter second number : "))
 
 
 #Apply Conditional Logic
+if operator == "+":
+    result = add(num1, num2)
