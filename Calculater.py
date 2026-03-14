@@ -30,3 +30,6 @@ elif operator == "-":
 
 elif operator == "*":
     result = mul(num1, num2)
+
+elif operator == "/":
+    result = div(num1, num2)
