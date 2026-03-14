@@ -36,3 +36,7 @@ elif operator == "/":
 
 elif operator == "%":
     result = mod(num1, num2)
+
+else:
+    print("Invalid operator")
+    result = None
