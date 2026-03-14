@@ -40,3 +40,6 @@ elif operator == "%":
 else:
     print("Invalid operator")
     result = None
+
+if result is not None:
+    print("Result:", result)
