@@ -7,3 +7,7 @@ print(thisset)
 #Set Items
 #Set items are unordered, unchangeable, 
 #and do not allow duplicate values.
+
+#Duplicates Not Allowed
+Fruits = {"apple", "banana", "cherry", "apple"}
+print(Fruits)
