@@ -27,3 +27,6 @@ if operator == "+":
 
 elif operator == "-":
     result = sub(num1, num2)
+
+elif operator == "*":
+    result = mul(num1, num2)
