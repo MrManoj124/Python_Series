@@ -42,6 +42,7 @@ while True :
             operator = input("Enter operator (+,-,*,/,%,**): ")
             num2 = float(input("Enter second number: "))
             
+            
 
 
 
