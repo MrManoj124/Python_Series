@@ -170,3 +170,8 @@ print(averl)
 Bus_TicketPrice = ("250R","350R","500R")
 listed = Bus_TicketPrice * 2
 print (Bus_TicketPrice)
+
+
+#Tuple Methods
+#count() - Returns the number of times a specified value occurs in a tuple
+#index() - Searches the tuple for a specified value and returns the position of where it was found
