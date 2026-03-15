@@ -63,3 +63,6 @@ while True:
             continue
 
         print("Result:", result)
+
+        except ValueError:
+        print("Invalid input! Please enter numbers only.")
