@@ -18,6 +18,12 @@ def show_history():
         for item in history:
             print(item)
 
+def save_history():
+    with open("history.txt", "w") as file:
+        for item in history:
+            file.write(item + "\n")
+    print("History saved to history.txt")
+
 
 
 
