@@ -19,7 +19,16 @@ def mod(a,b):
 def pow(a, b) :
     return a == b
 
+while True:
 
+    print("\n===== Smart Calculator =====")
+    print("1. Addition (+)")
+    print("2. Subtraction (-)")
+    print("3. Multiplication (*)")
+    print("4. Division (/)")
+    print("5. Modulus (%)")
+    print("6. Power (**)")
+    print("7. Exit")
 
 #Apply Conditional Logic
 if operator == "+":
