@@ -1,7 +1,13 @@
 import math
 history = []
 
-
+def calculate_expression(expr):
+    try:
+        result = eval(expr)
+        history.append(f"{expr} = {result}")
+        return result
+    except :
+        return "Invalid expression"
 
 
 
