@@ -46,7 +46,7 @@ while True:
         elif choice == "2":
             result = subtract(num1, num2)
 
-         elif choice == "3":
+        elif choice == "3":
             result = multiply(num1, num2)
 
         elif choice == "4":
@@ -58,11 +58,11 @@ while True:
         elif choice == "6":
             result = power(num1, num2)
 
-         else:
+        else:
             print("Invalid selection!")
             continue
 
         print("Result:", result)
 
-        except ValueError:
+    except ValueError:
         print("Invalid input! Please enter numbers only.")
