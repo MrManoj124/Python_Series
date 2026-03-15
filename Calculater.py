@@ -32,6 +32,9 @@ while True:
 
     choice = input("Select operation (1-7): ")
 
+    if choice == "7":
+        print("Calculator closed. Goodbye!")
+        break
 #Apply Conditional Logic
 if operator == "+":
     result = add(num1, num2)
