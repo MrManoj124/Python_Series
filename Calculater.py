@@ -45,3 +45,6 @@ while True:
 
         elif choice == "2":
             result = subtract(num1, num2)
+
+         elif choice == "3":
+            result = multiply(num1, num2)
