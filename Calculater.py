@@ -35,6 +35,11 @@ while True:
     if choice == "7":
         print("Calculator closed. Goodbye!")
         break
+
+    try:
+        num1 = float(input("Enter first number: "))
+        num2 = float(input("Enter second number: "))
+
 #Apply Conditional Logic
 if operator == "+":
     result = add(num1, num2)
