@@ -54,3 +54,6 @@ while True:
 
         elif choice == "5":
             result = modulus(num1, num2)
+
+        elif choice == "6":
+            result = power(num1, num2)
