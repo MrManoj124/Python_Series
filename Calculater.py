@@ -16,6 +16,8 @@ def div(a,b):
 def mod(a,b):
     return a % b
 
+def pow(a, b) :
+    return a == b
 
 #Take a user input 
 num1 = float(input("Enter First Number : "))
