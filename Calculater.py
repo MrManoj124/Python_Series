@@ -48,3 +48,6 @@ while True:
 
          elif choice == "3":
             result = multiply(num1, num2)
+
+        elif choice == "4":
+            result = divide(num1, num2)
