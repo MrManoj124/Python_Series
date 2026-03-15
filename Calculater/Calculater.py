@@ -69,6 +69,13 @@ while True :
         print("Calculator shutting down...")
         break
 
+    elif choice == "5":
+
+        print("Calculator shutting down...")
+        break
+
+    else:
+        print("Invalid option")
     
 
 
