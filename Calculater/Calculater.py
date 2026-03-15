@@ -62,6 +62,9 @@ while True :
     elif choice == "3":
         show_history()
 
+    elif choice == "4":
+        save_history()
+
 
 
 
