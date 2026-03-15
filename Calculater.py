@@ -30,6 +30,8 @@ while True:
     print("6. Power (**)")
     print("7. Exit")
 
+    choice = input("Select operation (1-7): ")
+
 #Apply Conditional Logic
 if operator == "+":
     result = add(num1, num2)
