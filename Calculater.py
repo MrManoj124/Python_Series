@@ -51,3 +51,6 @@ while True:
 
         elif choice == "4":
             result = divide(num1, num2)
+
+        elif choice == "5":
+            result = modulus(num1, num2)
