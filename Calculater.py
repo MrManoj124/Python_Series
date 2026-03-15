@@ -42,3 +42,6 @@ while True:
 
         if choice == "1":
             result = add(num1, num2)
+
+        elif choice == "2":
+            result = subtract(num1, num2)
