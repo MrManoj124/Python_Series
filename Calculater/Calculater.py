@@ -65,6 +65,12 @@ while True :
     elif choice == "4":
         save_history()
 
+    elif choice == "5":
+        print("Calculator shutting down...")
+        break
+
+    
+
 
 
 
