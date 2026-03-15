@@ -17,3 +17,6 @@ bike = {"Pulsar","Ducati", "BMW", "Apache","Royal Enfield"}
 print(len(bike))
 
 #Set Items - Data Types
+set1 = {"apple", "banana", "cherry"}
+set2 = {1, 5, 7, 9, 3}
+set3 = {True, False, False}
