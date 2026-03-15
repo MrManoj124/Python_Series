@@ -15,3 +15,5 @@ print(Fruits)
 #Get the Length of a Set
 bike = {"Pulsar","Ducati", "BMW", "Apache","Royal Enfield"}
 print(len(bike))
+
+#Set Items - Data Types
