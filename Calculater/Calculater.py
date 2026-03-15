@@ -33,6 +33,8 @@ while True :
     print("4. Save History")
     print("5. Exit")
 
+    choice = input("Select option: ")
+
 
 
 
