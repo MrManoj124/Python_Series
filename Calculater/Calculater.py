@@ -52,6 +52,13 @@ while True :
         except:
             print("Invalid calculation")
 
+        elif choice == "2":
+
+        expr = input("Enter expression (example: 10 + 5 * 3): ")
+        result = calculate_expression(expr)
+
+        print("Result:", result)
+
 
 
 
