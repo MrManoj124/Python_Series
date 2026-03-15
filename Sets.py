@@ -20,3 +20,7 @@ print(len(bike))
 set1 = {"apple", "banana", "cherry"}
 set2 = {1, 5, 7, 9, 3}
 set3 = {True, False, False}
+
+#use type()
+charger_W_value = {"12W Adapter", "15W Adapter", "25W Adapter"}
+print(type(charger_W_value))
