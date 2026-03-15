@@ -26,8 +26,14 @@ def save_history():
 
 
 while True :
+    print("\n===== SMART CALCULATOR PRO =====")
+    print("1. Basic Calculation")
+    print("2. Expression Calculator")
+    print("3. Show History")
+    print("4. Save History")
+    print("5. Exit")
 
-    
+
 
 
 
