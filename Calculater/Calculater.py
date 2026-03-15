@@ -37,6 +37,11 @@ while True :
 
     if choice == "1":
 
+        try:
+            num1 = float(input("Enter first number: "))
+            operator = input("Enter operator (+,-,*,/,%,**): ")
+            num2 = float(input("Enter second number: "))
+            
 
 
 
