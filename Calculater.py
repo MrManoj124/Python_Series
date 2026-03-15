@@ -40,25 +40,3 @@ while True:
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
 
-#Apply Conditional Logic
-if operator == "+":
-    result = add(num1, num2)
-
-elif operator == "-":
-    result = sub(num1, num2)
-
-elif operator == "*":
-    result = mul(num1, num2)
-
-elif operator == "/":
-    result = div(num1, num2)
-
-elif operator == "%":
-    result = mod(num1, num2)
-
-else:
-    print("Invalid operator")
-    result = None
-
-if result is not None:
-    print("Result:", result)
