@@ -10,6 +10,15 @@ def calculate_expression(expr):
         return "Invalid expression"
 
 
+def show_history():
+    if not history:
+        print("No history available")
+    else:
+        print("\n---- Calculation History ----")
+        for item in history:
+            print(item)
+
+
 
 
 
