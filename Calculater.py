@@ -57,3 +57,9 @@ while True:
 
         elif choice == "6":
             result = power(num1, num2)
+
+         else:
+            print("Invalid selection!")
+            continue
+
+        print("Result:", result)
