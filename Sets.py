@@ -24,3 +24,8 @@ set3 = {True, False, False}
 #use type()
 charger_W_value = {"12W Adapter", "15W Adapter", "25W Adapter"}
 print(type(charger_W_value))
+
+
+#The set() Constructor
+Charger_type = set(("Type-C", "Micro", "Lightning"))
+print(Charger_type)
