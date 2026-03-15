@@ -25,6 +25,11 @@ def save_history():
     print("History saved to history.txt")
 
 
+while True :
+
+    
+
+
 
 
 
