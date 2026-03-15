@@ -19,10 +19,6 @@ def mod(a,b):
 def pow(a, b) :
     return a == b
 
-#Take a user input 
-num1 = float(input("Enter First Number : "))
-operator = input("Enter operator (+,-,*,/,%) : ")
-num2 = float(input("Enter second number : "))
 
 
 #Apply Conditional Logic
