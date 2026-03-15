@@ -41,8 +41,14 @@ while True :
             num1 = float(input("Enter first number: "))
             operator = input("Enter operator (+,-,*,/,%,**): ")
             num2 = float(input("Enter second number: "))
-            
-            
+
+            expression = f"{num1}{operator}{num2}"
+            result = eval(expression)
+
+            print("Result:", result)
+
+            history.append(f"{expression} = {result}")
+
 
 
 
