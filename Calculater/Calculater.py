@@ -49,7 +49,8 @@ while True :
 
             history.append(f"{expression} = {result}")
 
-
+        except:
+            print("Invalid calculation")
 
 
 
