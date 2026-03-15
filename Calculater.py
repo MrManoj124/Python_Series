@@ -44,19 +44,19 @@ while True:
             result = add(num1, num2)
 
         elif choice == "2":
-            result = subtract(num1, num2)
+            result = sub(num1, num2)
 
         elif choice == "3":
-            result = multiply(num1, num2)
+            result = mul(num1, num2)
 
         elif choice == "4":
-            result = divide(num1, num2)
+            result = div(num1, num2)
 
         elif choice == "5":
-            result = modulus(num1, num2)
+            result = mod(num1, num2)
 
         elif choice == "6":
-            result = power(num1, num2)
+            result = pow(num1, num2)
 
         else:
             print("Invalid selection!")
