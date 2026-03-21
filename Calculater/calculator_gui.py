@@ -16,3 +16,4 @@ def click_button(value):
     current = entry.get()
     entry.delete(0, tk.END)
     entry.insert(0, current + str(value))
+
