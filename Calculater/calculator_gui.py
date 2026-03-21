@@ -19,4 +19,7 @@ def click_button(value):
 
 def clear():
     entry.delete(0, tk.END)
+
+def calculate():
+    
     
