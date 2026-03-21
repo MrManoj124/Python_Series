@@ -6,5 +6,11 @@ root.title("Smart Calculator")
 root.geometry("300x400")
 root.mainloop()
 
+#Add Display
 entry = tk.Entry(root, width=20 , font=("Arial", 18), borderwidth=5, justify="right")
 entry.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
+
+
+#Button Click Function
+def click_button(value):
+    current = entry.get()
