@@ -43,4 +43,4 @@ for (text , row, col) in buttons:
     else:
         btn = tk.Button(root, text=text, width=5, height=2,
                         command=lambda t=text: click_button(t))
-    
+    btn.grid(row=row, column=col, padx=5, pady=5)
