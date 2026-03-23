@@ -47,4 +47,4 @@ for (text , row, col) in buttons:
 
 # Clear button
 clear_btn = tk.Button(root, text="C", width=22, height=2, command=clear)
-#clear_btn.grid(row=5, column=0, columnspan=4)
+clear_btn.grid(row=5, column=0, columnspan=4)
