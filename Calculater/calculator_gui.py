@@ -38,5 +38,9 @@ buttons = [
 ]
 
 for (text , row, col) in buttons:
-    
+    if text == "=":
+        btn = tk.Button(root, text=text, width=5, height=2, command=calculate)
+    else:
+        btn = tk.Button(root, text=text, width=5, height=2,
+                        command=lambda t=text: click_button(t))
     
