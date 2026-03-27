@@ -29,3 +29,8 @@ print(type(charger_W_value))
 #The set() Constructor
 Charger_type = set(("Type-C", "Micro", "Lightning"))
 print(Charger_type)
+
+
+#<======Access Set Items=======>
+
+
