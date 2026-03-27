@@ -32,5 +32,7 @@ print(Charger_type)
 
 
 #<======Access Set Items=======>
-
+thisset = {"Arrow","will","Ambu"}
+for x in thisset:
+    print(x)
 
