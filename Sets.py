@@ -57,3 +57,6 @@ print(medfruit)
 mylist = ["kiwi","cherry","papaya"]
 Fruits.update(mylist)
 print(Fruits)
+
+
+#<=====Remove set Items======>
