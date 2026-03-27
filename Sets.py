@@ -36,3 +36,8 @@ thisset = {"Arrow","will","Ambu"}
 for x in thisset:
     print(x)
 
+
+#Example02 for Access set items
+pen = {"Mango","Atlas","Linc","Speed-Rider","SMS"}
+print ("Linc" in pen)
+
