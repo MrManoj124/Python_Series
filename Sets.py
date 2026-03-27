@@ -40,4 +40,5 @@ for x in thisset:
 #Example02 for Access set items
 pen = {"Mango","Atlas","Linc","Speed-Rider","SMS"}
 print ("Linc" in pen)
+print ("SMS" not in pen)
 
