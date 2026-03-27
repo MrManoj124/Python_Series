@@ -54,3 +54,6 @@ print(medfruit)
 
 
 #Add any Iterable
+mylist = ["kiwi","cherry","papaya"]
+Fruits.update(mylist)
+print(Fruits)
