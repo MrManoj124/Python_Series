@@ -42,3 +42,9 @@ pen = {"Mango","Atlas","Linc","Speed-Rider","SMS"}
 print ("Linc" in pen)
 print ("SMS" not in pen)
 
+
+#<=====Add Items =====>
+Fruits = {"Mango","Apple","Woodapple","Banana"}
+Fruits.add("banana")
+print(Fruits)
+
