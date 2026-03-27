@@ -49,6 +49,7 @@ Fruits.add("orange")
 print(Fruits)
 
 medfruit = {"durian","Avacado","FashionFruit"}
-
+Fruits.update(medfruit)
+print(medfruit)
 
 
