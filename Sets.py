@@ -60,3 +60,5 @@ print(Fruits)
 
 
 #<=====Remove set Items======>
+Fan_Model = {"panasonic","lotus","LG","Singer"}
+Fans={"innovex","Philips","fulax"}
