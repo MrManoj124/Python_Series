@@ -64,3 +64,6 @@ Fan_Model = {"panasonic","lotus","LG","Singer"}
 Fans={"innovex","Philips","fulax"}
 Fan_Model.remove("Singer")
 print(Fan_Model)
+
+Fan_Model.discard("LG")
+print(Fan_Model)
