@@ -48,4 +48,7 @@ Fruits = {"Mango","Apple","Woodapple","Banana"}
 Fruits.add("orange")
 print(Fruits)
 
+medfruit = {"durian","Avacado","FashionFruit"}
+
+
 
