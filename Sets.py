@@ -70,3 +70,5 @@ print(Fan_Model)
 
 #pop()
 #Remove a random item by using the pop() method:
+Fan_Model.pop()
+print(Fan_Model)
