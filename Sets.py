@@ -76,3 +76,7 @@ print(Fan_Model)
 #<=====Clear the Set======>
 Fan_Model.clear()
 print(Fan_Model)
+
+#<=====Delete the set=======>
+del Fan_Model
+print(Fan_Model)
