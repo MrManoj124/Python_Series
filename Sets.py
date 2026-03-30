@@ -72,3 +72,7 @@ print(Fan_Model)
 #Remove a random item by using the pop() method:
 Fan_Model.pop()
 print(Fan_Model)
+
+#<=====Clear the Set======>
+Fan_Model.clear()
+print(Fan_Model)
