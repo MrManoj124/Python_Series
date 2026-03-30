@@ -67,3 +67,6 @@ print(Fan_Model)
 
 Fan_Model.discard("LG")
 print(Fan_Model)
+
+#pop()
+#Remove a random item by using the pop() method:
