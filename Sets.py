@@ -86,4 +86,4 @@ print(Fan_Model)
 setA = {"Apche","Pulsqr","Fazer"}
 setB = {"Ducati","BMW","Royal_Enfield"}
 setC = setA.union(setB)
-
+print(setC)
