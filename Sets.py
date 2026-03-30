@@ -80,3 +80,9 @@ print(Fan_Model)
 #<=====Delete the set=======>
 del Fan_Model
 print(Fan_Model)
+
+
+#<=====Join Two Sets=====>
+setA = {"Apche","Pulsqr","Fazer"}
+setB = {"Ducati","BMW","Royal_Enfield"}
+
