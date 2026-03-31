@@ -13,4 +13,6 @@ def evaluate_expression(expr):
         history.append(F"{expr} = {result}")
         update_history()
         return result
+    except:
+        return "Error"
     
