@@ -92,3 +92,9 @@ print(setC)
 #=====Join with Union Operator======
 setD = setA | setB
 print(setD)
+
+
+#Keep ONLY the Duplicates
+setE = setA.intersection(setB)
+print(setE)
+
