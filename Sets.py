@@ -103,5 +103,5 @@ setF = {"Apple","Mango","Cherry"}
 setG = {"Pineapple","Watermelon","Papaya"}
 setH = {"Durian","Avacado","Fashionfruit"}
 setK = setF.union(setG,setH)
-
+print(setK)
 
