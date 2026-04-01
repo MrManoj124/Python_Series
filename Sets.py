@@ -87,3 +87,8 @@ setA = {"Apche","Pulsar","Fazer"}
 setB = {"Ducati","BMW","Royal_Enfield"}
 setC = setA.union(setB)
 print(setC)
+
+
+#=====Join with Union Operator======
+setD = setA | setB
+print(setD)
