@@ -16,3 +16,7 @@ def evaluate_expression(expr):
     except:
         return "Error"
     
+
+#---------GUI Functions-------------#
+def click(value):
+    entry.insert(tk.END, value)
