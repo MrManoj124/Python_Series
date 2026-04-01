@@ -98,3 +98,9 @@ print(setD)
 setE = setA.intersection(setB)
 print(setE)
 
+#Join multiple sets
+setF = {"Apple","Mango","Cherry"}
+setG = {"Pineapple","Watermelon","Papaya"}
+setH = {"Durian","Avacado","Fashionfruit"}
+
+
