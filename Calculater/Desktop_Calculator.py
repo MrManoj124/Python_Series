@@ -20,3 +20,9 @@ def evaluate_expression(expr):
 #---------GUI Functions-------------#
 def click(value):
     entry.insert(tk.END, value)
+
+def clear():
+    entry.delete(0, tk.END)
+
+def calculate():
+    
