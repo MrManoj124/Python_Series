@@ -105,3 +105,10 @@ setH = {"Durian","Avacado","Fashionfruit"}
 setK = setF.union(setG,setH)
 print(setK)
 
+
+#Join a set and a Tuple
+laptop = {"Lenovo","HP","Dell","Apple","ASUS"}
+mobile = ("OnePlus","Samsung","Apple","Realme","Vivo")
+
+
+
