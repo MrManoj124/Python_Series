@@ -134,4 +134,10 @@ webbrowsers.intersection_update(AiItergration)
 print(webbrowsers)
 
 
+#Join with Difference() method
+watch = {"titan","rolex","casio","fastrack","sonata"}
+wallclock = {"ajanta","orient","seiko"}
+
+
+
 
