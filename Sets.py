@@ -121,4 +121,9 @@ manorooban = mano.intersection(rooban)
 print(manorooban)
 
 
+#Intersection with the & operator
+manorooban = mano & rooban
+print(manorooban)
+
+
 
