@@ -151,5 +151,6 @@ print(watch)
 Samsung_ASeries = {"Samsung A10","Samsung A20", "Samsung A30","Samsung A17"}
 Samsung_MSeries = {"Samsung M10","Samsung M20", "Samsung M30"}
 
-
+Samsung_ASeries.difference_update(Samsung_MSeries)
+print(Samsung_ASeries)
 
