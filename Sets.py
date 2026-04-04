@@ -138,6 +138,8 @@ print(webbrowsers)
 watch = {"titan","rolex","casio","fastrack","sonata"}
 wallclock = {"ajanta","orient","seiko"}
 
+Time_based = watch.difference(wallclock)
+print(Time_based)
 
 
 
