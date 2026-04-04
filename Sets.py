@@ -159,5 +159,9 @@ print(Samsung_ASeries)
 Samsung_Series = Samsung_ASeries.symmetric_difference(Samsung_MSeries)
 print(Samsung_Series)
 
+#Symmetric Difference with the ^ operator 
+Samsung_Series = Samsung_ASeries ^ Samsung_MSeries
+print(Samsung_Series)
+
 
 
