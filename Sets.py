@@ -118,7 +118,7 @@ mano = {"All","is","well"}
 rooban = {"with","love","care"}
 
 manorooban = mano.intersection(rooban)
-
+print(manorooban)
 
 
 
