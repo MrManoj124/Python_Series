@@ -113,4 +113,11 @@ laptop.update(mobile)
 print(laptop)
 
 
+#join with intersection
+mano = {"All","is","well"}
+rooban = {"with","love","care"}
+
+manorooban = mano.intersection(rooban)
+
+
 
