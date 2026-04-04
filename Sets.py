@@ -164,4 +164,9 @@ Samsung_Series = Samsung_ASeries ^ Samsung_MSeries
 print(Samsung_Series)
 
 
+#Symmetric Difference Update() method
+Samsung_ASeries.symmetric_difference_update(Samsung_MSeries)
+print(Samsung_ASeries)
+
+
 
