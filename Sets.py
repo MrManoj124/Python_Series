@@ -142,4 +142,8 @@ Time_based = watch.difference(wallclock)
 print(Time_based)
 
 
+#use difference_update() method
+watch.difference_update(wallclock)
+print(watch)
+
 
