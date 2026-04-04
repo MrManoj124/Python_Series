@@ -130,7 +130,8 @@ print(manorooban)
 webbrowsers = {"Chrome", "Edge","Firefox","Opera"}
 AiItergration = {"Gemini","Copilot","Ai Side Bar","Opera Ai"}
 
-
+webbrowsers.intersection_update(AiItergration)
+print(webbrowsers)
 
 
 
