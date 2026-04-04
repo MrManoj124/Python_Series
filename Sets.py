@@ -126,4 +126,11 @@ manorooban = mano & rooban
 print(manorooban)
 
 
+#intersection_update() method
+webbrowsers = {"Chrome", "Edge","Firefox","Opera"}
+AiItergration = {"Gemini","Copilot","Ai Side Bar","Opera Ai"}
+
+
+
+
 
