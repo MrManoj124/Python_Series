@@ -147,3 +147,9 @@ watch.difference_update(wallclock)
 print(watch)
 
 
+#Symmetric Difference
+Samsung_ASeries = {"Samsung A10","Samsung A20", "Samsung A30","Samsung A17"}
+Samsung_MSeries = {"Samsung M10","Samsung M20", "Samsung M30"}
+
+
+
