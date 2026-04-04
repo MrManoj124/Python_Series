@@ -121,3 +121,4 @@ manorooban = mano.intersection(rooban)
 
 
 
+
