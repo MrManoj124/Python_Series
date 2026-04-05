@@ -95,4 +95,10 @@ def voice_input():
          messagebox.showerror("Error","Could not understand audio")
 
 
-#
+#----------------GUI Setup--------------------#
+root=tk.Tk()
+root.title("Desktop Calculator Ai Pro")
+root.geometry("400x500")
+root.configure(bg="#1e1e1e")
+
+
