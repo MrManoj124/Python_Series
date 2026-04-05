@@ -56,3 +56,21 @@ def key_input(event):
 
 
 #-------------AI Command----------#
+def ai_calculate():
+     text = entry.get().lower()
+
+     try
+        text = text.replace("plus", "+") \
+        .replace("minus", "-") \
+        .replace("multiply","*") \
+        .replace("times","*") \
+        .replace("devide","/") \
+        .replace("over","/") \
+        .replace("open paranthesis") \
+        .replace("close paranthesis")
+
+        result = evaluate_expression(text)
+        entry.delete(0, tk.END)
+        entry.insert(0, str(result))
+
+    
