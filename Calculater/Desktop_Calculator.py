@@ -101,4 +101,6 @@ root.title("Desktop Calculator Ai Pro")
 root.geometry("400x500")
 root.configure(bg="#1e1e1e")
 
+entry = tk.Entry(root, font=("Arial", 20), bg="#333", fg="#fff", )
+entry.pack(fill="both", padx=10, pady=10)
 
