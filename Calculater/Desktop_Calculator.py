@@ -73,4 +73,8 @@ def ai_calculate():
         entry.delete(0, tk.END)
         entry.insert(0, str(result))
 
-    
+    except:
+        entry.insert(0, "Ai Error")
+
+
+#
