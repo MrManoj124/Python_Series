@@ -51,4 +51,4 @@ def key_input(event):
 
     elif key == "x08": #Backspace
  
-    
+    current
