@@ -50,5 +50,6 @@ def key_input(event):
         calculate()
 
     elif key == "x08": #Backspace
- 
-    current
+        current = entry.get()
+        entry.delete(0, tk.END)
+        entry.insert(0, current[:-1])
