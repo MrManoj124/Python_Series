@@ -81,8 +81,9 @@ def ai_calculate():
 def voice_input():
      recognizer = sr.Recognizer()
 
+    # Use the default microphone as the audio source
      with sr.Microphone() as source:
           messagebox.showinfo("Voice", "Speak now...")
           audio = recognizer.listen(source)
 
-    
+    t
