@@ -104,3 +104,7 @@ root.configure(bg="#1e1e1e")
 entry = tk.Entry(root, font=("Arial", 20), bg="#333", fg="#fff", )
 entry.pack(fill="both", padx=10, pady=10)
 
+#Buttons Frame
+frame = tk.Frame(root, bg="1e1e1e")
+frame.pack()
+
