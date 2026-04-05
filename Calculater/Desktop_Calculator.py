@@ -108,3 +108,12 @@ entry.pack(fill="both", padx=10, pady=10)
 frame = tk.Frame(root, bg="1e1e1e")
 frame.pack()
 
+buttons = [
+    '7', '8', '9', '/',
+    '4','5','6','*',
+    '1','2','3','-',
+    '0','%','=','+'
+]
+
+row = 0
+col = 0
