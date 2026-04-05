@@ -38,5 +38,11 @@ def update_history():
         history_box.insert(tk.END, item)
 
 
+#--------------- Keyboard Support ------------#
+def key_input(event):
+     key = event.char
+
+     #check if key is a digit or operator
+     
 
     
