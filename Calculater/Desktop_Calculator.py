@@ -30,4 +30,13 @@ def calculate():
     entry.delete(0, tk.END)
     entry.insert(0, str(result))
 
+
+#-------------- History Panel -------------#
+def update_history():
+    history_box.delete(0, tk.END)
+    for item in history:
+        history_box.insert(tk.END, item)
+
+
+
     
