@@ -43,6 +43,12 @@ def key_input(event):
      key = event.char
 
      #check if key is a digit or operator
-     
+     if key in "0123456789+-*/().":
+         entry.insert(tk.END, key)
 
+    elif key == "\r": # Enter key
+        calculate()
+
+    elif key == "x08": #Backspace
+ 
     
