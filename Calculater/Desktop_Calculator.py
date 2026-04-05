@@ -77,4 +77,12 @@ def ai_calculate():
         entry.insert(0, "Ai Error")
 
 
-#
+#--------------Voice Input-----------------#
+def voice_input():
+     recognizer = sr.Recognizer()
+
+     with sr.Microphone() as source:
+          messagebox.showinfo("Voice", "Speak now...")
+          audio = recognizer.listen(source)
+
+    
