@@ -57,9 +57,9 @@ def key_input(event):
 
 #-------------AI Command----------#
 def ai_calculate():
-     text = entry.get().lower()
+    text = entry.get().lower()
 
-     try
+    try
         text = text.replace("plus", "+") \
         .replace("minus", "-") \
         .replace("multiply","*") \
@@ -79,11 +79,20 @@ def ai_calculate():
 
 #--------------Voice Input-----------------#
 def voice_input():
-     recognizer = sr.Recognizer()
+    recognizer = sr.Recognizer()
 
     # Use the default microphone as the audio source
-     with sr.Microphone() as source:
+    with sr.Microphone() as source:
           messagebox.showinfo("Voice", "Speak now...")
           audio = recognizer.listen(source)
+          
+    try:
+        text = recognizer.recognize_google(audio)
+        entry.delete(0, tk.END)
+        entry.insert(0, text)
 
-    t
+    except:
+         messagebox.showerror("Error","Could not understand audio")
+
+
+#
