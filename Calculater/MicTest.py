@@ -1,11 +1,12 @@
-#import speech_recognition as sr
 import speech_recognition as sr
 
-#print(sr.Microphone.list_microphone_names())
+r = sr.Recognizer()
 
-record = sr.Recognizer()
-with sr.Microphone() as source:
+mic_index = 1  # try 1, 5, 9, etc.
+
+with sr.Microphone(device_index=mic_index) as source:
     print("Speak...")
-    audio = record.listen(source)
+    r.adjust_for_ambient_noise(source)
+    audio = r.listen(source)
 
-print("Captured audio")
+print("Audio captured")
