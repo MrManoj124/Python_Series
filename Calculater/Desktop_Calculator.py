@@ -138,3 +138,6 @@ tk.Button(root, text="Voice Input" , bg="green", fg="white", command=voice_input
 history_box = tk.Listbox(root, bg="#2d2d2d", fg="white")
 history_box.pack(fill="both", expand=True, padx=10, pady=10)
 
+#Keyboard Binding
+root.bind("<key>", key_input)
+root.mainloop()
