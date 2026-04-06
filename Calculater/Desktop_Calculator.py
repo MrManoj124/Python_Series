@@ -130,4 +130,5 @@ for btn in buttons:
           row += 1
 
 #Special Buttons
-tk
+tk.Button(root, text="Clear", bg="red", fg="white", command=clear).pack(fill="x")
+tk.Button
