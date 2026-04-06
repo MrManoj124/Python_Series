@@ -76,17 +76,49 @@ def ai_calculate():
 def voice_input():
     recognizer = sr.Recognizer()
 
-    with sr.Microphone() as source:
-        messagebox.showinfo("Voice", "Speak now...")
-        audio = recognizer.listen(source)
-
     try:
+        # Get available microphones
+        mic_list = sr.Microphone.list_microphone_names()
+        mic_index = None
+
+        # Try to auto-pick Realtek mic
+        for i, name in enumerate(mic_list):
+            if "microphone" in name.lower():
+                mic_index = i
+                break
+
+        if mic_index is None:
+            messagebox.showerror("Error", "No microphone found")
+            return
+
+        with sr.Microphone(device_index=mic_index) as source:
+            messagebox.showinfo("Voice", "Speak now...")
+
+            recognizer.adjust_for_ambient_noise(source, duration=1)
+
+            audio = recognizer.listen(
+                source,
+                timeout=5,
+                phrase_time_limit=5
+            )
+
+        # Convert speech to text
         text = recognizer.recognize_google(audio)
+
         entry.delete(0, tk.END)
         entry.insert(0, text)
-    except:
+
+    except sr.WaitTimeoutError:
+        messagebox.showerror("Error", "Listening timed out")
+
+    except sr.UnknownValueError:
         messagebox.showerror("Error", "Could not understand audio")
 
+    except sr.RequestError:
+        messagebox.showerror("Error", "API unavailable")
+
+    except Exception as e:
+        messagebox.showerror("Error", f"Mic error: {str(e)}")
 # ------------------ GUI SETUP ------------------
 
 root = tk.Tk()
