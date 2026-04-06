@@ -133,3 +133,8 @@ for btn in buttons:
 tk.Button(root, text="Clear", bg="red", fg="white", command=clear).pack(fill="x")
 tk.Button(root, text="AI Calculate", bg="blue", fg="white", command=ai_calculate).pack(fill="x")
 tk.Button(root, text="Voice Input" , bg="green", fg="white", command=voice_input-input).pack(fill="x")
+
+#History Panel
+history_box = tk.Listbox(root, bg="#2d2d2d", fg="white")
+history_box.pack(fill="both", expand=True, padx=10, pady=10)
+
