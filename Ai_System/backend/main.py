@@ -3,4 +3,4 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-clas
+class Expression(BaseModel):
