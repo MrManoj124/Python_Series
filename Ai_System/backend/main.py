@@ -7,4 +7,9 @@ class Expression(BaseModel):
     expr : str
 
 @app.post("/calculte")
-def calculate()
+def calculate(data : Expression):
+    try:
+        result = eval(data.expr)
+        return{"result: result"}
+    except:
+        return{"Error": "Invalid Expression"}
