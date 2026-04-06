@@ -2,21 +2,21 @@ import tkinter as tk
 from tkinter import messagebox
 import speech_recognition as sr
 
-# ------------------ CORE LOGIC ------------------#
+# ------------------ CORE LOGIC ------------------
 
 history = []
 
 def evaluate_expression(expr):
     try:
         result = eval(expr)
-        history.append(F"{expr} = {result}")
+        history.append(f"{expr} = {result}")
         update_history()
         return result
     except:
         return "Error"
-    
 
-#---------GUI Functions-------------#
+# ------------------ GUI FUNCTIONS ------------------
+
 def click(value):
     entry.insert(tk.END, value)
 
@@ -27,88 +27,82 @@ def calculate():
     expr = entry.get()
     result = evaluate_expression(expr)
     entry.delete(0, tk.END)
-    entry.insert(0, str(result))
+    entry.insert(0, result)
 
+# ------------------ HISTORY PANEL ------------------
 
-#-------------- History Panel -------------#
 def update_history():
     history_box.delete(0, tk.END)
     for item in history:
         history_box.insert(tk.END, item)
 
+# ------------------ KEYBOARD SUPPORT ------------------
 
-#--------------- Keyboard Support ------------#
 def key_input(event):
     key = event.char
 
-    #check if key is a digit or operator
-    if key in "0123456789+-*/().":
-         entry.insert(tk.END, key)
+    if key in "0123456789+-*/%":
+        entry.insert(tk.END, key)
 
-    elif key == "\r": # Enter key
+    elif key == "\r":  # Enter key
         calculate()
 
-    elif key == "x08": #Backspace
+    elif key == "\x08":  # Backspace
         current = entry.get()
         entry.delete(0, tk.END)
         entry.insert(0, current[:-1])
 
+# ------------------ AI COMMAND ------------------
 
-#-------------AI Command----------#
 def ai_calculate():
     text = entry.get().lower()
 
     try:
         text = text.replace("plus", "+") \
-        .replace("minus", "-") \
-        .replace("multiply","*") \
-        .replace("times","*") \
-        .replace("devide","/") \
-        .replace("over","/") \
-        .replace("open paranthesis") \
-        .replace("close paranthesis")
+                   .replace("minus", "-") \
+                   .replace("multiply", "*") \
+                   .replace("times", "*") \
+                   .replace("divide", "/")
 
         result = evaluate_expression(text)
         entry.delete(0, tk.END)
-        entry.insert(0, str(result))
+        entry.insert(0, result)
 
     except:
-        entry.insert(0, "Ai Error")
+        entry.insert(0, "AI Error")
 
+# ------------------ VOICE INPUT ------------------
 
-#--------------Voice Input-----------------#
 def voice_input():
     recognizer = sr.Recognizer()
 
-    # Use the default microphone as the audio source
     with sr.Microphone() as source:
-          messagebox.showinfo("Voice", "Speak now...")
-          audio = recognizer.listen(source)
-          
+        messagebox.showinfo("Voice", "Speak now...")
+        audio = recognizer.listen(source)
+
     try:
         text = recognizer.recognize_google(audio)
         entry.delete(0, tk.END)
         entry.insert(0, text)
-
     except:
-         messagebox.showerror("Error","Could not understand audio")
+        messagebox.showerror("Error", "Could not understand audio")
 
+# ------------------ GUI SETUP ------------------
 
-#----------------GUI Setup--------------------#
-root=tk.Tk()
-root.title("Desktop Calculator Ai Pro")
-root.geometry("400x500")
+root = tk.Tk()
+root.title("🔥 Smart Calculator AI Pro")
+root.geometry("500x500")
 root.configure(bg="#1e1e1e")
 
-entry = tk.Entry(root, font=("Arial", 20), bg="#333", fg="#fff", )
+entry = tk.Entry(root, font=("Arial", 20), bg="#2d2d2d", fg="white", insertbackground="white")
 entry.pack(fill="both", padx=10, pady=10)
 
-#Buttons Frame
-frame = tk.Frame(root, bg="1e1e1e")
+# Buttons Frame
+frame = tk.Frame(root, bg="#1e1e1e")
 frame.pack()
 
 buttons = [
-    '7', '8', '9', '/',
+    '7','8','9','/',
     '4','5','6','*',
     '1','2','3','-',
     '0','%','=','+'
@@ -118,25 +112,26 @@ row = 0
 col = 0
 
 for btn in buttons:
-     action = lambda x=btn: click(x) if x != "=" else calculate()
-     tk.button(frame, text=btn, width=5, height=2,
-               bg="#3a3a3a", fg="white",
-               command=action).grid(row=row, column=col, padx=5, pady=5)
-    
-     col += 1
-     if col > 3:
-          col = 0
-          row += 1
+    action = lambda x=btn: click(x) if x != "=" else calculate()
+    tk.Button(frame, text=btn, width=5, height=2,
+              bg="#3a3a3a", fg="white",
+              command=action).grid(row=row, column=col, padx=5, pady=5)
 
-#Special Buttons
+    col += 1
+    if col > 3:
+        col = 0
+        row += 1
+
+# Special Buttons
 tk.Button(root, text="Clear", bg="red", fg="white", command=clear).pack(fill="x")
 tk.Button(root, text="AI Calculate", bg="blue", fg="white", command=ai_calculate).pack(fill="x")
-tk.Button(root, text="Voice Input" , bg="green", fg="white", command=voice_input-input).pack(fill="x")
+tk.Button(root, text="🎤 Voice Input", bg="green", fg="white", command=voice_input).pack(fill="x")
 
-#History Panel
+# History Panel
 history_box = tk.Listbox(root, bg="#2d2d2d", fg="white")
 history_box.pack(fill="both", expand=True, padx=10, pady=10)
 
-#Keyboard Binding
-root.bind("<key>", key_input)
+# Keyboard Binding
+root.bind("<Key>", key_input)
+
 root.mainloop()
