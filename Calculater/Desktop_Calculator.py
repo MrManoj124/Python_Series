@@ -121,5 +121,5 @@ col = 0
 for btn in buttons:
      action = lambda x=btn: click(x) if x != "=" else calculate()
      tk.button(frame, text=btn, width=5, height=2,
-               
+               bg=""
                )
