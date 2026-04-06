@@ -121,5 +121,13 @@ col = 0
 for btn in buttons:
      action = lambda x=btn: click(x) if x != "=" else calculate()
      tk.button(frame, text=btn, width=5, height=2,
-               bg=""
-               )
+               bg="#3a3a3a", fg="white",
+               command=action).grid(row=row, column=col, padx=5, pady=5)
+    
+     col += 1
+     if col > 3:
+          col = 0
+          row += 1
+
+#Special Buttons
+tk
