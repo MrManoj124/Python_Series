@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import messagebox
 import speech_recognition as sr
 
-
 # ------------------ CORE LOGIC ------------------#
 
 history = []
@@ -59,7 +58,7 @@ def key_input(event):
 def ai_calculate():
     text = entry.get().lower()
 
-    try
+    try:
         text = text.replace("plus", "+") \
         .replace("minus", "-") \
         .replace("multiply","*") \
