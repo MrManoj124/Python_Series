@@ -131,4 +131,5 @@ for btn in buttons:
 
 #Special Buttons
 tk.Button(root, text="Clear", bg="red", fg="white", command=clear).pack(fill="x")
-tk.Button
+tk.Button(root, text="AI Calculate", bg="blue", fg="white", command=ai_calculate).pack(fill="x")
+tk.Button(root, text="Voice Input" , bg=green)
