@@ -12,5 +12,10 @@ function App(){
       });
       setResult(res.data.result);
     }
-  }
+    catch{
+      setResult("Error");
+    }
+  };
+
+  
 }
