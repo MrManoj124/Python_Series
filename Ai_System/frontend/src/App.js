@@ -28,7 +28,6 @@ function App(){
       />
       <br/> <br/>
       <button onClick={calculate}>Calculate</button>
-
        <h2>Result:{result}</h2>
       </div>
   );
