@@ -13,3 +13,4 @@ def calculate(data : Expression):
         return{"result: result"}
     except:
         return{"Error": "Invalid Expression"}
+
