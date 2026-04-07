@@ -21,7 +21,13 @@ function App(){
     <div style = {{ textAlign: "center", marginTop : "50px"}}>
       <h1>Smart Calculator</h1>
 
-      <
+      <input
+        value={input}
+        onChange={(e) => setInput(e.target.value)}
+        placeholder="Enter Expression"
+      />
+      <br/> <br/>
+      <button onClick={calculate}>Calculate</button> 
       </>
   );
 }
