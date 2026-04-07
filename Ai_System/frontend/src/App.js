@@ -27,7 +27,8 @@ function App(){
         placeholder="Enter Expression"
       />
       <br/> <br/>
-      <button onClick={calculate}>Calculate</button> 
+      <button onClick={calculate}>Calculate</button>
+       
       </>
   );
 }
