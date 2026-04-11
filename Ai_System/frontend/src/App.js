@@ -24,6 +24,11 @@ function App(){
     setResult(res.data.response);
   }
 
+  //Add Voice input
+  const startVoice = () => {
+    
+  }
+
   return (
     <div style = {{ textAlign: "center", marginTop : "50px"}}>
       <h1>Smart Calculator</h1>
