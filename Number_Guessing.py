@@ -14,4 +14,10 @@ while True:
             print("Too high! Try again.")
 
         else:
-            
+            print("Congratulations! You've guessed the number!")
+            break:
+
+    except ValueError:
+        print("Invalid input. Please enter a number.")
+
+        
