@@ -20,5 +20,11 @@ import requests
 @app.post("/chat") 
 def chat(data : Expression):
     response = requests.post(
-       "" 
+       "http://localhost:11434/api/generate",
+       json={
+           "model":"mistral"
+           "prompt": data.expr
+           "stream":False
+       } 
     )
+    return response.json()
