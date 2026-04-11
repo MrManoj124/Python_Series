@@ -33,6 +33,9 @@ function App(){
     recognition.start();
   };
 
+  const speak = (text) => {
+    const speech = new SpeechSynthesisUtterance(text);
+  }
   return (
     <div style = {{ textAlign: "center", marginTop : "50px"}}>
       <h1>Smart Calculator</h1>
