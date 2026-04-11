@@ -27,8 +27,11 @@ function App(){
   //Add Voice input
   const startVoice = () => {
     const recognition = new window.webkitSpeechRecognition();
-    
-  }
+    recognition.onresult= (event) => {
+      setInput(event.results[0][0].transcript);
+    };
+    recognition.start();
+  };
 
   return (
     <div style = {{ textAlign: "center", marginTop : "50px"}}>
