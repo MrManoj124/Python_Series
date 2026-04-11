@@ -18,7 +18,10 @@ function App(){
   // };
   
   const chat = async () => {
-    
+    const res = await axios.post("http://127.0.0.1:8000/chat",{
+      expr : input,
+    });
+    setResult(res.data.response);
   }
 
   return (
