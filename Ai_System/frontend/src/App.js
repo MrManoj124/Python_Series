@@ -5,17 +5,17 @@ function App(){
   const [input, setInput] = useState("");
   const [result, setResult] = useState("");
 
-  // const calculate = async () => {
-  //   try{
-  //     const res = await axios.post("http://127.0.0.1:8000/calculate",{
-  //       expr: input,
-  //     });
-  //     setResult(res.data.result);
-  //   }
-  //   catch{
-  //     setResult("Error");
-  //   }
-  // };
+  const calculate = async () => {
+    try{
+      const res = await axios.post("http://127.0.0.1:8000/calculate",{
+        expr: input,
+      });
+      setResult(res.data.result);
+    }
+    catch{
+      setResult("Error");
+    }
+  };
   
   const chat = async () => {
     const res = await axios.post("http://127.0.0.1:8000/chat",{
@@ -44,6 +44,7 @@ function App(){
       />
       <br/> <br/>
       <button onClick={calculate}>Calculate</button>
+      <button onClick={startVoice}>VoiceInput</button>
        <h2>Result:{result}</h2>
       </div>
   );
