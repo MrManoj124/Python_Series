@@ -35,7 +35,7 @@ function App(){
 
   const speak = (text) => {
     const speech = new SpeechSynthesisUtterance(text);
-    
+    window.speechSynthesis.speak(speech);
   }
   return (
     <div style = {{ textAlign: "center", marginTop : "50px"}}>
