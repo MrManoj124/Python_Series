@@ -12,3 +12,4 @@ password = ""
 for i in range(length) :
     password += secrets.choice(characters)
 
+print("Generated password : " , password)
