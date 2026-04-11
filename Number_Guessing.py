@@ -15,9 +15,8 @@ while True:
 
         else:
             print("Congratulations! You've guessed the number!")
-            break:
+            break
 
     except ValueError:
         print("Invalid input. Please enter a number.")
 
-        
