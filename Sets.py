@@ -216,3 +216,4 @@ print(input_device.isdisjoint(output_device))
 #10.issubset()
 A = {'a','b','c'}
 B = {'f','e','d','c','b','a','g'}
+print(A.issubset(B))
