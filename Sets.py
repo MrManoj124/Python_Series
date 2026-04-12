@@ -225,3 +225,5 @@ print(B.issuperset(A))
 
 #12.pop()
 biscuits = {"Oreo","Hide&Seek","Britannia","Parle-G"}
+biscuits.pop()
+print(biscuits)
