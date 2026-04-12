@@ -194,3 +194,7 @@ print(bikes.difference(cars))
 #05.difference_update()
 bikes.difference_update(cars)
 print(bikes)
+
+#06.discard()
+bikes.discard("Ducati")
+print(bikes)
