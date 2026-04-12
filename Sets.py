@@ -204,4 +204,6 @@ bikes = {"Pulsar","Ducati","BMW","Apache"}
 cars = {"BMW","Audi","Mercedes","Lexus"}
 print(bikes.intersection(cars))
 
-#
+#08.intersection_update()
+bikes.intersection_update(cars)
+print(bikes)
