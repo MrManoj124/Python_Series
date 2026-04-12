@@ -185,3 +185,6 @@ print(myset)
 cars = {"BMW","Audi","Mercedes","Lexus"}
 mycars = cars.copy()
 print(mycars)
+
+#04.difference()
+bikes = {"Pulsar","Ducati","BMW","Apache"}
