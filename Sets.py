@@ -202,3 +202,6 @@ print(bikes)
 #07.intersection()
 bikes = {"Pulsar","Ducati","BMW","Apache"}
 cars = {"BMW","Audi","Mercedes","Lexus"}
+print(bikes.intersection(cars))
+
+#
