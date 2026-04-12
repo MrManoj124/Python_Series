@@ -176,3 +176,7 @@ print(Samsung_ASeries)
 myset = {"Mango", "Orange","Apple","PineApple"}
 myset.add("Watermelon")
 print(myset)
+
+#02.clear()
+myset.clear()
+print(myset)
