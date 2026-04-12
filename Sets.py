@@ -180,3 +180,6 @@ print(myset)
 #02.clear()
 myset.clear()
 print(myset)
+
+#03.copy()
+cars = {"BMW","Audi","Mercedes","Lexus"}
