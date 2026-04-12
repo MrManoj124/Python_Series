@@ -183,3 +183,5 @@ print(myset)
 
 #03.copy()
 cars = {"BMW","Audi","Mercedes","Lexus"}
+mycars = cars.copy()
+print(mycars)
