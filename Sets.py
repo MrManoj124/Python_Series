@@ -207,3 +207,9 @@ print(bikes.intersection(cars))
 #08.intersection_update()
 bikes.intersection_update(cars)
 print(bikes)
+
+#09.isdisjoint()
+input_device = {"Keyboard","Mouse","Monitor","CPU"}
+output_device = {"Printer","Scanner","Speaker","CPU"}
+print(input_device.isdisjoint(output_device))
+
