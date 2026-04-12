@@ -222,3 +222,6 @@ print(A.issubset(B))
 A = {'a','b','c'}
 B = {'f','e','d','c','b','a','g'}
 print(B.issuperset(A))
+
+#12.pop()
+biscuits = {"Oreo","Hide&Seek","Britannia","Parle-G"}
