@@ -188,3 +188,5 @@ print(mycars)
 
 #04.difference()
 bikes = {"Pulsar","Ducati","BMW","Apache"}
+cars = {"BMW","Audi","Mercedes","Lexus"}
+print(bikes.difference(cars))
