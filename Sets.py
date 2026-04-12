@@ -169,4 +169,5 @@ Samsung_ASeries.symmetric_difference_update(Samsung_MSeries)
 print(Samsung_ASeries)
 
 
-
+#Set Methods
+#python has a set of built-in methods that you can use on sets.
