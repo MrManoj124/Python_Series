@@ -190,3 +190,7 @@ print(mycars)
 bikes = {"Pulsar","Ducati","BMW","Apache"}
 cars = {"BMW","Audi","Mercedes","Lexus"}
 print(bikes.difference(cars))
+
+#05.difference_update()
+bikes.difference_update(cars)
+print(bikes)
