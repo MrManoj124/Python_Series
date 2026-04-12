@@ -198,3 +198,7 @@ print(bikes)
 #06.discard()
 bikes.discard("Ducati")
 print(bikes)
+
+#07.intersection()
+bikes = {"Pulsar","Ducati","BMW","Apache"}
+cars = {"BMW","Audi","Mercedes","Lexus"}
