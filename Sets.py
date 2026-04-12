@@ -217,3 +217,8 @@ print(input_device.isdisjoint(output_device))
 A = {'a','b','c'}
 B = {'f','e','d','c','b','a','g'}
 print(A.issubset(B))
+
+#11.issuperset()
+A = {'a','b','c'}
+B = {'f','e','d','c','b','a','g'}
+print(B.issuperset(A))
