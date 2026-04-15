@@ -235,3 +235,7 @@ biscuits.remove("Britannia")
 biscuits = {"Oreo","Hide&Seek","Britannia","Parle-G"}
 cake = {"Dairy Milk","Bournville","Perk","Kit-kat"}
 print(biscuits.symmetric_difference(cake))
+
+
+#symmetric_difference_update()
+biscuits.symmetric_difference_update(cake)
