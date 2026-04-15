@@ -265,3 +265,4 @@ print(biscuits)
 #Example for isdisjoint() method
 cake = {"Dairy Milk","Bournville","Perk","Kit-kat"}
 biscuits = {"Oreo","Hide&Seek","Britannia","Parle-G"}
+print(cake.isdisjoint(biscuits))
