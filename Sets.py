@@ -239,3 +239,6 @@ print(biscuits.symmetric_difference(cake))
 
 #symmetric_difference_update()
 biscuits.symmetric_difference_update(cake)
+print(biscuits)
+
+#
