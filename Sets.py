@@ -255,3 +255,4 @@ print(SetM.union(SetT))
 #Example for intersection() method
 setA = {"Apche","Pulsar","Fazer"}
 setB = {"Ducati","BMW","Royal_Enfield"}
+print(setA.intersection(setB))
