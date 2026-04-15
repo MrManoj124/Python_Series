@@ -244,3 +244,4 @@ print(biscuits)
 #Example for union() method
 setA = {"Apche","Pulsar","Fazer"}
 setB = {"Ducati","BMW","Royal_Enfield"}
+print(setA.union(setB))
