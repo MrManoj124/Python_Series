@@ -86,7 +86,9 @@ def voice_input():
                 mic_index = i
                 break
         
-        
+        if mic_index is None:
+            messagebox.showerror("Error", "No Microphone found")
+            return 
 
         
 
