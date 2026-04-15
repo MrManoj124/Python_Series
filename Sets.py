@@ -241,4 +241,5 @@ print(biscuits.symmetric_difference(cake))
 biscuits.symmetric_difference_update(cake)
 print(biscuits)
 
-#
+#Example for union() method
+setA = {"Apche","Pulsar","Fazer"}
