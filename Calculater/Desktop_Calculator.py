@@ -80,6 +80,9 @@ def voice_input():
         mic_list = sr.Microphone.list_microphone_names()
         mic_index = None
 
+        # Try to auto-pick Realtek Mic
+        for i, name in enumerate(mic_list):
+
 
 # ------------------ GUI SETUP ------------------
 
