@@ -249,3 +249,4 @@ print(setA.union(setB))
 #Example 2 for union operator
 SetM = {"Nike","Adidas","Puma"}
 SetT = {"Reebok","Fila","Skechers"}
+print(SetM.union(SetT))
