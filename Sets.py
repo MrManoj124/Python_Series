@@ -256,3 +256,6 @@ print(SetM.union(SetT))
 setA = {"Apche","Pulsar","Fazer"}
 setB = {"Ducati","BMW","Royal_Enfield"}
 print(setA.intersection(setB))
+
+#Example for discard () method
+biscuits = {"Oreo","Hide&Seek","Britannia","Parle-G"}
