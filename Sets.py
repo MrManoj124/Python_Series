@@ -260,3 +260,4 @@ print(setA.intersection(setB))
 #Example for discard () method
 biscuits = {"Oreo","Hide&Seek","Britannia","Parle-G"}
 biscuits.discard("Britannia")
+print(biscuits)
