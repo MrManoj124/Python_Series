@@ -77,6 +77,8 @@ def voice_input():
 
     try :
         #Get Available Microphones
+        mic_list = sr.Microphone.list_microphone_names()
+        mic_index = None
 
 
 # ------------------ GUI SETUP ------------------
