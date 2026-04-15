@@ -72,6 +72,11 @@ def ai_calculate():
         entry.insert(0, "AI Error")
 
 # ------------------ VOICE INPUT ------------------
+def voice_input():
+    recognizer = sr.Recognizer()
+
+    try :
+        #Get Available Microphones
 
 
 # ------------------ GUI SETUP ------------------
