@@ -85,6 +85,8 @@ def voice_input():
             if "microphone" in name.lower():
                 mic_index = i
                 break
+        
+        
 
         
 
