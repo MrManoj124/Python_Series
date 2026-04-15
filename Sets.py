@@ -261,3 +261,7 @@ print(setA.intersection(setB))
 biscuits = {"Oreo","Hide&Seek","Britannia","Parle-G"}
 biscuits.discard("Britannia")
 print(biscuits)
+
+#Example for isdisjoint() method
+cake = {"Dairy Milk","Bournville","Perk","Kit-kat"}
+biscuits = {"Oreo","Hide&Seek","Britannia","Parle-G"}
