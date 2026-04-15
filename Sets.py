@@ -245,3 +245,6 @@ print(biscuits)
 setA = {"Apche","Pulsar","Fazer"}
 setB = {"Ducati","BMW","Royal_Enfield"}
 print(setA.union(setB))
+
+#Example 2 for union operator
+SetM = {"Nike","Adidas","Puma"}
