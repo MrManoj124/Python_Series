@@ -250,3 +250,8 @@ print(setA.union(setB))
 SetM = {"Nike","Adidas","Puma"}
 SetT = {"Reebok","Fila","Skechers"}
 print(SetM.union(SetT))
+
+
+#Example for intersection() method
+setA = {"Apche","Pulsar","Fazer"}
+setB = {"Ducati","BMW","Royal_Enfield"}
