@@ -73,28 +73,6 @@ def ai_calculate():
 
 # ------------------ VOICE INPUT ------------------
 
-def voice_input():
-    recognizer = sr.Recognizer()
-
-    try:
-        # DEBUG: print all microphones
-        for i, name in enumerate(sr.Microphone.list_microphone_names()):
-            print(i, name)
-
-        with sr.Microphone() as source:  # let system choose default
-            messagebox.showinfo("Voice", "Speak now...")
-
-            recognizer.adjust_for_ambient_noise(source, duration=1)
-
-            audio = recognizer.listen(source, timeout=5)
-
-        text = recognizer.recognize_google(audio)
-
-        entry.delete(0, tk.END)
-        entry.insert(0, text)
-
-    except Exception as e:
-        messagebox.showerror("Error", str(e))
 
 # ------------------ GUI SETUP ------------------
 
