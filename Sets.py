@@ -1,0 +1,268 @@
+myset = {"apple", "banana", "cherry"}
+print(myset)
+
+thisset = {"car", "bike", "lorry","bus"}
+print(thisset) 
+
+#Set Items
+#Set items are unordered, unchangeable, 
+#and do not allow duplicate values.
+
+#Duplicates Not Allowed
+Fruits = {"apple", "banana", "cherry", "apple"}
+print(Fruits)
+
+#Get the Length of a Set
+bike = {"Pulsar","Ducati", "BMW", "Apache","Royal Enfield"}
+print(len(bike))
+
+#Set Items - Data Types
+set1 = {"apple", "banana", "cherry"}
+set2 = {1, 5, 7, 9, 3}
+set3 = {True, False, False}
+
+#use type()
+charger_W_value = {"12W Adapter", "15W Adapter", "25W Adapter"}
+print(type(charger_W_value))
+
+
+#The set() Constructor
+Charger_type = set(("Type-C", "Micro", "Lightning"))
+print(Charger_type)
+
+
+#<======Access Set Items=======>
+thisset = {"Arrow","will","Ambu"}
+for x in thisset:
+    print(x)
+
+
+#Example02 for Access set items
+pen = {"Mango","Atlas","Linc","Speed-Rider","SMS"}
+print ("Linc" in pen)
+print ("SMS" not in pen)
+
+
+#<=====Add Items =====>
+Fruits = {"Mango","Apple","Woodapple","Banana"}
+Fruits.add("orange")
+print(Fruits)
+
+medfruit = {"durian","Avacado","FashionFruit"}
+Fruits.update(medfruit)
+print(medfruit)
+
+
+#Add any Iterable
+mylist = ["kiwi","cherry","papaya"]
+Fruits.update(mylist)
+print(Fruits)
+
+
+#<=====Remove set Items======>
+Fan_Model = {"panasonic","lotus","LG","Singer"}
+Fans={"innovex","Philips","fulax"}
+Fan_Model.remove("Singer")
+print(Fan_Model)
+
+Fan_Model.discard("LG")
+print(Fan_Model)
+
+#pop()
+#Remove a random item by using the pop() method:
+Fan_Model.pop()
+print(Fan_Model)
+
+#<=====Clear the Set======>
+Fan_Model.clear()
+print(Fan_Model)
+
+#<=====Delete the set=======>
+del Fan_Model
+print(Fan_Model)
+
+
+#<=====Join Two Sets=====>
+setA = {"Apche","Pulsar","Fazer"}
+setB = {"Ducati","BMW","Royal_Enfield"}
+setC = setA.union(setB)
+print(setC)
+
+
+#=====Join with Union Operator======
+setD = setA | setB
+print(setD)
+
+
+#Keep ONLY the Duplicates
+setE = setA.intersection(setB)
+print(setE)
+
+#Join multiple sets
+setF = {"Apple","Mango","Cherry"}
+setG = {"Pineapple","Watermelon","Papaya"}
+setH = {"Durian","Avacado","Fashionfruit"}
+setK = setF.union(setG,setH)
+print(setK)
+
+
+#Join a set and a Tuple
+laptop = {"Lenovo","HP","Dell","Apple","ASUS"}
+mobile = ("OnePlus","Samsung","Apple","Realme","Vivo")
+laptop.update(mobile)
+print(laptop)
+
+
+#join with intersection
+mano = {"All","is","well"}
+rooban = {"with","love","care"}
+
+manorooban = mano.intersection(rooban)
+print(manorooban)
+
+
+#Intersection with the & operator
+manorooban = mano & rooban
+print(manorooban)
+
+
+#intersection_update() method
+webbrowsers = {"Chrome", "Edge","Firefox","Opera"}
+AiItergration = {"Gemini","Copilot","Ai Side Bar","Opera Ai"}
+
+webbrowsers.intersection_update(AiItergration)
+print(webbrowsers)
+
+
+#Join with Difference() method
+watch = {"titan","rolex","casio","fastrack","sonata"}
+wallclock = {"ajanta","orient","seiko"}
+
+Time_based = watch.difference(wallclock)
+print(Time_based)
+
+
+#use difference_update() method
+watch.difference_update(wallclock)
+print(watch)
+
+
+#Difference_update() 
+Samsung_ASeries = {"Samsung A10","Samsung A20", "Samsung A30","Samsung A17"}
+Samsung_MSeries = {"Samsung M10","Samsung M20", "Samsung M30"}
+
+Samsung_ASeries.difference_update(Samsung_MSeries)
+print(Samsung_ASeries)
+
+
+#Symmetric Difference() method
+Samsung_Series = Samsung_ASeries.symmetric_difference(Samsung_MSeries)
+print(Samsung_Series)
+
+#Symmetric Difference with the ^ operator 
+Samsung_Series = Samsung_ASeries ^ Samsung_MSeries
+print(Samsung_Series)
+
+
+#Symmetric Difference Update() method
+Samsung_ASeries.symmetric_difference_update(Samsung_MSeries)
+print(Samsung_ASeries)
+
+
+#Set Methods
+#python has a set of built-in methods that you can use on sets.
+#01.add()
+#example for add() method is given below
+myset = {"Mango", "Orange","Apple","PineApple"}
+myset.add("Watermelon")
+print(myset)
+
+#02.clear()
+myset.clear()
+print(myset)
+
+#03.copy()
+cars = {"BMW","Audi","Mercedes","Lexus"}
+mycars = cars.copy()
+print(mycars)
+
+#04.difference()
+bikes = {"Pulsar","Ducati","BMW","Apache"}
+cars = {"BMW","Audi","Mercedes","Lexus"}
+print(bikes.difference(cars))
+
+#05.difference_update()
+bikes.difference_update(cars)
+print(bikes)
+
+#06.discard()
+bikes.discard("Ducati")
+print(bikes)
+
+#07.intersection()
+bikes = {"Pulsar","Ducati","BMW","Apache"}
+cars = {"BMW","Audi","Mercedes","Lexus"}
+print(bikes.intersection(cars))
+
+#08.intersection_update()
+bikes.intersection_update(cars)
+print(bikes)
+
+#09.isdisjoint()
+input_device = {"Keyboard","Mouse","Monitor","CPU"}
+output_device = {"Printer","Scanner","Speaker","CPU"}
+print(input_device.isdisjoint(output_device))
+
+#10.issubset()
+A = {'a','b','c'}
+B = {'f','e','d','c','b','a','g'}
+print(A.issubset(B))
+
+#11.issuperset()
+A = {'a','b','c'}
+B = {'f','e','d','c','b','a','g'}
+print(B.issuperset(A))
+
+#12.pop()
+biscuits = {"Oreo","Hide&Seek","Britannia","Parle-G"}
+biscuits.pop()
+print(biscuits)
+
+#13.remove()
+biscuits.remove("Britannia")
+
+#14.symmetric_difference()
+biscuits = {"Oreo","Hide&Seek","Britannia","Parle-G"}
+cake = {"Dairy Milk","Bournville","Perk","Kit-kat"}
+print(biscuits.symmetric_difference(cake))
+
+
+#symmetric_difference_update()
+biscuits.symmetric_difference_update(cake)
+print(biscuits)
+
+#Example for union() method
+setA = {"Apche","Pulsar","Fazer"}
+setB = {"Ducati","BMW","Royal_Enfield"}
+print(setA.union(setB))
+
+#Example 2 for union operator
+SetM = {"Nike","Adidas","Puma"}
+SetT = {"Reebok","Fila","Skechers"}
+print(SetM.union(SetT))
+
+
+#Example for intersection() method
+setA = {"Apche","Pulsar","Fazer"}
+setB = {"Ducati","BMW","Royal_Enfield"}
+print(setA.intersection(setB))
+
+#Example for discard () method
+biscuits = {"Oreo","Hide&Seek","Britannia","Parle-G"}
+biscuits.discard("Britannia")
+print(biscuits)
+
+#Example for isdisjoint() method
+cake = {"Dairy Milk","Bournville","Perk","Kit-kat"}
+biscuits = {"Oreo","Hide&Seek","Britannia","Parle-G"}
+print(cake.isdisjoint(biscuits))
