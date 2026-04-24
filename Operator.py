@@ -24,3 +24,8 @@ print("a = : ", c)
 # Add and assign
 a += b
 print("a += : ", a)
+
+
+# Subtract and assign 
+a -= b
+print("a -= : ", a)
