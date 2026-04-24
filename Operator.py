@@ -14,3 +14,8 @@ print("Floor Division : ", x//y)
 # Assignment Operators
 a = 20 
 b = 10
+
+# Equalt operators
+c = 20
+a = c
+print("a = : ", c)
