@@ -29,3 +29,7 @@ print("a += : ", a)
 # Subtract and assign 
 a -= b
 print("a -= : ", a)
+
+# Multiply and assign operator
+a *= b
+print("a *= : ", a)
