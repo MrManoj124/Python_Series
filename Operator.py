@@ -38,4 +38,8 @@ print("a *= : ", a)
 a /= b
 print("a /= :", a)
 
+# Modulus and assign operator
+a %= b
+print("a %= : ", a)
+
 
