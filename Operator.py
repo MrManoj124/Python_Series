@@ -15,7 +15,12 @@ print("Floor Division : ", x//y)
 a = 20 
 b = 10
 
-# Equalt operators
+# Equal operators
 c = 20
 a = c
 print("a = : ", c)
+
+
+# Add and assign
+a += b
+print("a += : ", a)
