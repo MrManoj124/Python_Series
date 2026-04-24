@@ -9,3 +9,8 @@ print("Division : ", x/y)
 print("Modulus : ", x%y)
 print("Exponentiation : ", x**y)
 print("Floor Division : ", x//y)
+
+
+# Assignment Operators
+a = 20 
+b = 10
