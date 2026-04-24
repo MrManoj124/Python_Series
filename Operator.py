@@ -33,3 +33,9 @@ print("a -= : ", a)
 # Multiply and assign operator
 a *= b
 print("a *= : ", a)
+
+# Divide and assign operator
+a /= b
+print("a /= :", a)
+
+
