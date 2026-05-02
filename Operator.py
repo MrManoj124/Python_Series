@@ -144,3 +144,7 @@ print("banana" in fruits)
 # example for not in operation
 fruit_juice=["Mango_juice","Apple_juice","Orange_juice"]
 print("Lemon juice" not in fruit_juice)
+
+# Membership in Strings
+# The membership operators also work with strings
+
