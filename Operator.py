@@ -115,3 +115,4 @@ vehicle = Four_Wheelers
 
 print (Four_Wheelers is vehicle)
 print (Four_Wheelers is Six_Wheelers)
+print (Four_Wheelers == Six_Wheelers)
