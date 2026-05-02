@@ -46,6 +46,9 @@ print("a %= : ", a)
 a //= b
 print(a)
 
+# **= operator
+a **= b
+print(a)
 
 
 
