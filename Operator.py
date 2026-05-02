@@ -162,8 +162,12 @@ g = 40
 n = 45
 print (g & n)
 
-# OR operator
-print (g | n)
 
 # XOR operator 
 print (g ^ n)
+
+# OR operator
+print (g | n)
+
+# NOT operator
+print (g ~ n)
