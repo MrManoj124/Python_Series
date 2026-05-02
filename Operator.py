@@ -171,3 +171,9 @@ print (g | n)
 
 # NOT operator
 print (g ~ n)
+
+# Zero fill left shift
+print (g << n)
+
+# Signed right shift
+print (g >> n)
