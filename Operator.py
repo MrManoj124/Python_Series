@@ -77,4 +77,13 @@ if(count := len(Even_number)) > 3:
     print(f"List has {count} elements")
 
 
+# Create two new variables
+m = 45
+t = 100
+
+
+# Practice with comparison operator
+# 
+
+
 
