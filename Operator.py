@@ -70,4 +70,8 @@ print(a)
 a <<= b
 print(a)
 
+# Example for count 
+Even_number = [2,4,6,8,10]
+
+
 
