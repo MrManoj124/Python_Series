@@ -92,3 +92,11 @@ print(m)
 m != t
 print(m)
 
+# Practice with > operator
+m > t
+print(m)
+
+# Practice with < operator
+m < t
+print(m)
+
