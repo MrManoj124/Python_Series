@@ -116,3 +116,7 @@ vehicle = Four_Wheelers
 print (Four_Wheelers is vehicle)
 print (Four_Wheelers is Six_Wheelers)
 print (Four_Wheelers == Six_Wheelers)
+
+
+# Add is not keyword
+print (Four_Wheelers is not Six_Wheelers)
