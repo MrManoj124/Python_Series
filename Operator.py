@@ -131,3 +131,8 @@ v = 100
 # Returns True if a sequence with the specified value is present in the object
 s in v
 print (s)
+
+# not in operator
+# Returns True if a sequence with the specified value is not present in the object
+s not in v
+print (s)
