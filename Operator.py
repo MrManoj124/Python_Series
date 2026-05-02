@@ -107,3 +107,9 @@ print(m)
 # Practice with <= operator
 m <= t
 print(m)
+
+# Practice Identity operators
+Four_Wheelers = ["cars","van","JCB"]
+Six_Wheelers = ["Bus","Lorry"]
+vehicle = Four_Wheelers
+
