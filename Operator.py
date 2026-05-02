@@ -62,3 +62,10 @@ print(a)
 a ^= b
 print(a)
 
+# Right shift operator
+a >>= b
+print(a)
+
+
+
+
