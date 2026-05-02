@@ -158,3 +158,6 @@ print("z" not in text)
 
 # Bitwise operators
 # AND operator
+g = 40
+n = 45
+print (g & n)
