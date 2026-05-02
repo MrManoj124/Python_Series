@@ -42,4 +42,10 @@ print("a /= :", a)
 a %= b
 print("a %= : ", a)
 
+# // = for count 
+a //= b
+print(a)
+
+
+
 
