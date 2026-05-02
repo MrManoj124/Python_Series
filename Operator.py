@@ -83,7 +83,8 @@ t = 100
 
 
 # Practice with comparison operator
-# 
-
+# Practice with == operator
+m == t
+print(m)
 
 
