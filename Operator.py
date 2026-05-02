@@ -148,3 +148,9 @@ print("Lemon juice" not in fruit_juice)
 # Membership in Strings
 # The membership operators also work with strings
 
+# Example for the membership operators also work with strings
+text = "Hello World"
+
+print("H" in text)
+print("hello" in text)
+print("z" not in text)
