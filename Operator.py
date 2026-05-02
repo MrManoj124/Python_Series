@@ -66,6 +66,8 @@ print(a)
 a >>= b
 print(a)
 
-
+# Left shift operator
+a <<= b
+print(a)
 
 
