@@ -71,7 +71,10 @@ a <<= b
 print(a)
 
 # Example for count 
+# The count variable is assigned in the if statement, and given the value 5
 Even_number = [2,4,6,8,10]
+if(count := len(Even_number)) > 3:
+    print(f"List has {count} elements")
 
 
 
