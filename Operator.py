@@ -113,3 +113,4 @@ Four_Wheelers = ["cars","van","JCB"]
 Six_Wheelers = ["Bus","Lorry"]
 vehicle = Four_Wheelers
 
+print (Four_Wheelers is vehicle)
