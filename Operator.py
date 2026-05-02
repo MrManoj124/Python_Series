@@ -126,3 +126,8 @@ print (Four_Wheelers is not Six_Wheelers)
 # Membership operators are used to test if a sequence is presented in an object:
 s = 50 
 v = 100 
+
+# in operator
+# Returns True if a sequence with the specified value is present in the object
+s in v
+print (s)
