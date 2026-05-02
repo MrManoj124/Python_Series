@@ -136,3 +136,8 @@ print (s)
 # Returns True if a sequence with the specified value is not present in the object
 s not in v
 print (s)
+
+# example for in operation
+fruits = ["apple", "banana", "cherry"]
+
+print("banana" in fruits)
